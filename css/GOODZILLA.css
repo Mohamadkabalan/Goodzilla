@@ -212,60 +212,56 @@ body{
 
 /*SCND MENU CSS:
 =========================*/
-.scnd_menu_container ul.scnd_menu_list{
-    padding-left:61px;
-    margin-bottom: 0;
+.navbar{
+    margin-bottom:0;
+}
+.navbar-default {
+    background-color: white;
+    border: none;
     min-height: 47px;
     line-height:47px;
-}
-.scnd_menu_container ul.scnd_menu_list li{
-    list-style:none;
-    display:inline-block;
-    padding-right:80px;
-}
-.scnd_menu_container ul.scnd_menu_list li:last-child{
-    padding-right:0px;
-}
-.scnd_menu_container ul.scnd_menu_list li a{
-    color:#000000;
-    font-size:15.8px;
-    text-transform:uppercase;
-}
-.scnd_menu_container ul.scnd_menu_list li a:hover{
-    text-decoration:underline;
-    color:#C2262E;
-}
-.scnd_menu_container ul.scnd_menu_list li a.active{
-    color:#C2262E;
 }
 .user_logo_container {
     line-height: 47px;
 }
 .user_logo_container a {
-    float:right;
     margin-right:40px;
 }
-@media (max-width: 992px) {
-    .scnd_menu_container ul.scnd_menu_list li{
-        padding-right:40px;
-    }
+.navbar-default .navbar-nav > li > a{
+    color:#000000;
+    font-size:15.8px;
+    padding: 0;
+    line-height: 47px;
+}
+.navbar-default .navbar-nav > li{
+    padding-right:80px;
+}
+.navbar-default .navbar-nav > li:last-child{
+    padding-right:0px;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color:#C2262E;
+}
+.navbar-default .navbar-nav > li > a.active{
+    color:#C2262E;
+}
+ul.scnd_menu_list{
+    padding-left:45px;
+    margin-bottom: 0;
+    min-height: 47px;
+    line-height:47px;
+}
+.navbar-toggle{
+    margin-right:25px;
 }
 @media (max-width: 768px) {
-    .scnd_menu_container ul.scnd_menu_list li{
-        padding-right:30px;
+    .user_logo_container {
+        float: right;
     }
 }
 @media (max-width: 630px) {
-    .scnd_menu_container ul.scnd_menu_list li{
-        padding-right:15px;
-    }
-    .scnd_menu_container ul.scnd_menu_list {
-        padding-left: 10px;
-        line-height: 28px;
-        padding-top: 10px;
-    }
-    .scnd_menu_container ul.scnd_menu_list li a {
-        font-size: 13px;
+    ul.scnd_menu_list {
+        padding-left: 25px;
     }
 }
 

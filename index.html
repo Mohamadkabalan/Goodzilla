@@ -77,21 +77,29 @@
             <! FIRST MENU END >
             <! =========================================================================>
             <! SCND MENU START>
-            <div class="scnd_menu">
-                <div class="row no-margin">
-                    <div class="scnd_menu_container col-sm-11 col-xs-10 nopad">
-                        <ul class="scnd_menu_list">
-                            <li><a href="#" class="active">CATEGORIES</a></li>  <! ADDING CLASS ACTIVE TO THE a WILL COLOR IT RED (ACTIVE CLASS SHOULD BE GIVEN IF CLICKED)>
+
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>                        
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav scnd_menu_list">
+                            <li><a href="#" class="active">CATEGORIES</a></li>
                             <li><a href="#">ABOUT US</a></li>
                             <li><a href="#">SERVICES</a></li>
                             <li><a href="#">CONTACT US</a></li>
                         </ul>
-                    </div>
-                    <div class="user_logo_container col-sm-1 col-xs-2 nopad">
-                        <a href="#"><img src="images/user.png" alt="user" /></a>
+                        <ul class="nav navbar-nav navbar-right user_logo_container">
+                            <a href="#"><img src="images/user.png" alt="user" /></a>
+                        </ul>
                     </div>
                 </div>
-            </div>
+            </nav>
             <! SCND MENU END  >
             <! =========================================================================>
         </section>
