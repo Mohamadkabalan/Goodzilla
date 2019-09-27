@@ -22,10 +22,7 @@ body{
 .no-margin{
     margin-left:0;margin-right:0;
 }
-.container-fluid {
-    padding-right: 0;
-    padding-left: 0;
-}
+
 
 /*FIRST MENU CSS:
 ====================*/
@@ -173,6 +170,12 @@ body{
         padding-left:61px;
     }
 }
+@media (min-width: 768px) {
+	.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+}
 @media (min-width: 768px) and (max-width: 992px) {
     .carousel-caption{
         width: 75%;
@@ -261,7 +264,7 @@ ul.scnd_menu_list{
 }
 @media (max-width: 630px) {
     ul.scnd_menu_list {
-        padding-left: 25px;
+        padding-left: 10px;
     }
 }
 
