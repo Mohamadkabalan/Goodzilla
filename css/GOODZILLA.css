@@ -2,11 +2,12 @@
 @font-face {
     font-family: 'Nexa';
     src: 
-        url('fonts/NexaLight.otf') format('opentype'),
-        url('fonts/NexaBold.otf') format('opentype'),
-        url('fonts/NexaLightItalic.otf')  format('opentype');
-    font-weight: normal;
-    font-style: normal;
+        url('fonts/NexaLight.otf') format('opentype');
+}
+@font-face {
+    font-family: 'nexa-bold';
+    src: 
+        url('fonts/NexaBold.otf') format('opentype');
 }
 @font-face {
     font-family: 'MyriadPro';

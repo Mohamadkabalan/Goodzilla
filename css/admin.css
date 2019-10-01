@@ -1,0 +1,148 @@
+.navbar_admin{
+    border-bottom: 1px solid #C2C4C6;
+}
+.admin_pages_container{
+    margin-top:30px;
+    margin-bottom:20px;
+}
+
+.padding_lr_30{
+    padding-left:30px;
+    padding-right:30px;
+}
+.admin_name{
+    color:#000000;
+    font-size:29px;
+    margin-top:20px;
+    line-height:29px;
+    text-transform:capitalize;
+    margin-bottom:5px;
+}
+.admin_description{
+    color:#000000;
+    font-size:21px;
+    line-height:21px;
+    font-family:nexa-bold;
+    margin-bottom:21px;
+}
+.admin_email{
+    color:#000000;
+    font-size:20px;
+    line-height:20px;
+    margin-bottom:5px;
+}
+.admin_desc_container{
+    padding-bottom:20px;
+    border-bottom:1px solid #C2262E;
+}
+.tab-list{
+    padding-left:0;
+}
+.tab-list li{
+    list-style:none;
+}
+.tab-list li a{
+    color:#000000;
+    font-size:18px;
+    line-height:50px;
+}
+.tab-list li a.active{
+    color:#C2262E;
+    font-family:nexa-bold;
+}
+.tab-list li a:hover{
+    color:#C2262E;
+}
+.contenttabs{
+    display:none;
+}
+.firstdisplaytab{
+    display:block;
+}
+.admin_buttons{
+    width:100%;
+    height:45px;
+    line-height:45px;
+    display:block;
+    border-radius:5px;
+    border:1px solid #C2262E;
+    color:#000000;
+    font-size:23px;
+    padding-left:5px;
+    padding-right:10px;
+    margin-bottom:65px;
+}
+.admin_buttons span{
+    float:right;
+    font-family:nexa-bold;
+    font-size:19px;
+}
+.admin_buttons:hover{
+    background-color:#C2262E;
+    color:white;
+    text-decoration:none;
+}
+.admin_buttons_container{
+    margin-top:50px;
+}
+.pad_left_0{
+    padding-left:0;
+}
+/*CSS Right Panel/left panel */
+.right_panel:after{content:" ";position: absolute;width: 1px; height: 100%;background:#C2C4C6;left:0px;top:0px;}
+.left_panel:after{content:" ";position: absolute;width: 1px; height: 100%;background:#C2C4C6;right:-1px;top:0px;}
+.sub_right_panel:after{content:" ";position: absolute;width: 1px; height: 100%;background:#C2C4C6;left:0px;top:0px;}
+.sub_left_panel:after{content:" ";position: absolute;width: 1px; height: 100%;background:#C2C4C6;right:-1px;top:0px;}
+.sub_right_panel a.admin_buttons{margin-bottom:20px ;}
+.sub_left_panel a.admin_buttons{margin-bottom:20px ;}
+#sub_industry a.admin_buttons {margin-bottom:20px ;}
+@media (max-width:1200px){
+    .sub_right_panel:after{display:none;}
+    .sub_left_panel:after{display:none;}
+    .sub_left_panel , .sub_right_panel { width:100%;}
+    .sub_left_panel{border-bottom:1px solid #C2C4C6;}
+    .sub_right_panel{padding-left:0;margin-top:20px;}
+    .sub_right_panel a.admin_buttons{margin-bottom:15px !important;}
+    .sub_left_panel a.admin_buttons{margin-bottom:15px !important;}
+    #sub_industry a.admin_buttons{margin-bottom:15px !important;}
+}
+
+@media (max-width:768px){
+    .admin_name{
+        font-size:17px;
+        line-height:17px;
+    }
+    .admin_description{
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .admin_email{
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .tab-list li a{
+        font-size:14px;
+        line-height:30px;
+    }
+    .admin_buttons{
+        font-size:12px;
+        margin-bottom:35px;
+    }
+    .admin_buttons span{
+        font-size:14px;
+    }
+    .admin_buttons_container{
+        margin-top:25px;
+    }
+}
+@media (max-width:600px){
+    .right_panel:after{display:none;}
+    .left_panel:after{display:none;}
+    .left_panel , .right_panel {
+        width:100%;
+    }
+    .padding_lr_30{
+        padding-left:0px;
+        padding-right:0px;
+    }
+}
