@@ -148,8 +148,8 @@
 .load_more_colors:hover{color:#C2262E;text-decoration:none;}
 .bold_label{font-size:22px;color:#000000;font-family:nexa-bold;font-weight:normal;padding-left:30px;}
 .checkmark.smal_white_checkmark{background-color:#FFFFFF;border:3px solid #231F20;}
-.checkmark.smal_white_checkmark.smal_white_checkmark{border:3px thik #231F20;}
-.checkbox_container .checkmark.smal_white_checkmark:after {background-color:#C2262E;border-width: 0;left: 3px;top: 2px;width: 9px;height: 9px;border-radius:2px;
+.checkmark.smal_white_checkmark.smal_white_checkmark{border:3px solid #231F20;}
+.checkbox_container .checkmark.smal_white_checkmark:after {background-color:#C2262E;border-width: 0;left: 3px;top: 2px;width: 10px;height: 10px;border-radius:2px;
                                                            border: none;
                                                            -webkit-transform: rotate(0deg);
                                                            -ms-transform: rotate(0deg);
@@ -164,6 +164,7 @@
     border-radius:5px;
     margin-top: 5px;
 }
+.chrome .checkbox_container .checkmark.smal_white_checkmark:after {width: 9px;height: 9px;}
 .checkbox_container:hover input:checked ~ .checkmark {
     opacity:1;
 }
