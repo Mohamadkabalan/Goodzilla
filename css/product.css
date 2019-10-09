@@ -255,7 +255,6 @@ label.small_black_bold_txt_pro{width:100%;margin-bottom: 0;}
 /* END FIRST TAB PAGE CSS =================================================================================================================================== */
 
 /* SECOND TAB PAGE START CSS */
-
 .eval_options_glob {cursor: pointer;display: block;float: left;height: 14px;line-height: 14px; margin-right: 10px; position: relative;width: 15px;}
 .red-star{background: url("../images/red_rating_star.png") no-repeat;}
 .empty_stars{background: url("../images/empty_rating_star.png") no-repeat;}
@@ -295,7 +294,6 @@ label.small_black_bold_txt_pro{width:100%;margin-bottom: 0;}
 }
 .submit_red_but{font-size:13px;margin-right: 0;margin-top: 0;float:none;margin:0 auto;width: 90px;margin-bottom:20px;}
 .submit_red_but_container{margin:0 auto;}
-
 .rounded_image{width:80%;}
 .right_bordered_reviews_container{border-right:1px solid #231F20;margin-bottom:45px;}
 .review_desc_container{line-height:35px;padding-bottom:0;margin-bottom:5px;padding-right:2px;min-height:35px;float: left;width: 100%;}
@@ -305,6 +303,10 @@ label.small_black_bold_txt_pro{width:100%;margin-bottom: 0;}
 .user_review_info span.sep_bar_sup{margin-right:10px;}
 .user_review_info span.rating_stars_images span img{margin-right:0px;}
 .user_review_text{color:#000000;font-size:16.5px;font-family:nexa-italic;line-height:23px;margin-bottom: 0;margin-top: 8px;}
+.like_image_container{position:absolute;top:calc(50% - 30px);right:-57px;width:41px;height:60px;}
+.like_logo{cursor:pointer;margin-bottom:5px;}
+.num_of_likes{margin-left:10px;}
+
 @media screen and (max-width: 767px) {
     .pad_right_special_container{padding-right:0px;padding-left:0;}
     .padleft_right_20{padding-right:0px;padding-left:0;}
@@ -321,5 +323,55 @@ label.small_black_bold_txt_pro{width:100%;margin-bottom: 0;}
         font-size: 15px;
     }
     .rate_product_container input{font-size: 15px;}
+    .product_tab_title_general{font-size:30px;}
+    .user_review_text{font-size:17px;}
+    .user_review_info{font-size:17px;}
+    .user_review_info span.name_txt{margin-right:0px;}
+    .user_review_info span.flag_sup_img{margin-right:0px;}
+    .user_review_info span.sep_bar_sup{margin-right:0px;}
+}
+@media (max-width: 550px) {
+    .w100_xxs{width:100%;}
+    .rounded_image_container{text-align:center;}
+    .rounded_image{width:100px;}
+    .right_bordered_reviews_container{border:none;}
+    .product_tab_title_general{font-size:30px;}
+    .user_review_text{font-size:15px;}
+    .user_review_info{font-size:15px;}
+    .user_review_info span.name_txt{margin-right:0px;}
+    .user_review_info span.flag_sup_img{margin-right:0px;}
+    .user_review_info span.sep_bar_sup{margin-right:0px;}
+    .like_image_container {position: relative;top: 0;left: calc(50% - 20px);right: 0;margin-top: 10px;}
 }
 /* END SECOND TAB PAGE CSS =================================================================================================================================== */
+
+/* THIRD TAB PAGE START CSS */
+.suplier_noborder_section{border-right:none;}
+.suplier_noborder_section .rounded_image{max-width:150px;}
+/* END THIRD TAB PAGE CSS =================================================================================================================================== */
+
+/* 4th TAB PAGE START CSS */
+.color_red_title{color:#C2262E;}
+.medium_black_bold_txt{font-size: 20px;color: #000000;line-height: 30px;font-family: nexa-bold;font-weight: normal;margin-bottom:0;}
+.input-group input.snippet_product.font_normal{font-weight:normal;font-family:Nexa;font-size:15px;}
+.snd_cont_quant .input-group_container{padding-left:0;}
+.margin_bottom_20{margin-bottom:20px;}
+.payment_container_images img{float:left;margin-right:5px;}
+/* END 4th TAB PAGE CSS =================================================================================================================================== */
+
+/* 5th TAB PAGE START CSS */
+.small_italic_black{color: #000000;font-size: 16.5px;font-family: nexa-italic;line-height: 23px;margin-bottom: 0;}
+.margin_bottom_5{margin-bottom:5px;}
+.margin_top_0{margin-top:0;}
+.font_nb {font-family:nexa-bold;}
+.big_red_number{font-size:61px;color:#C2262E;font-family:nexa-bold;position: absolute;top: -16px;}
+.right_numb_txt{float:left;padding-left: 31px;}
+.right_numb_txt span.red_txt{font-size:22px;color:#C2262E;}
+.right_numb_txt span.black_italic_txt{color: #000000;font-size: 16.5px;font-family: nexa-italic;}
+.padding_left_47{padding-left:47px;}
+/* END 5th TAB PAGE CSS =================================================================================================================================== */
+
+
+
+
+
