@@ -325,11 +325,11 @@
             <div class="row no-margin">
                 <div class="col-xs-12 padleft_right_20">
                     <ul class="product_tab">
-                        <li class=""><a id="productdetails" class="a-tabs" title="" href="#">Product Details</a></li>
+                        <li class=""><a id="productdetails" class="a-tabs active" title="" href="#">Product Details</a></li>
                         <li class="product_list_separator">|</li>
                         <li class=""><a id="supplierdetails" class="a-tabs" title="" href="#">Supplier Details</a></li>
                         <li class="product_list_separator">|</li>
-                        <li class=""><a id="reviews" class="a-tabs active" title="" href="#">Reviews</a></li>
+                        <li class=""><a id="reviews" class="a-tabs" title="" href="#">Reviews</a></li>
                         <li class="product_list_separator">|</li>
                         <li class=""><a id="shippingpayment" class="a-tabs" title="" href="#">Shipping & Payment</a></li>
                         <li class="product_list_separator">|</li>
@@ -349,7 +349,7 @@
             </div>
             <div class="row no-margin">
                 <div class="col-xs-12 padleft_right_20"> 
-                    <div id="sub_productdetails" class="product_contenttabs">
+                    <div id="sub_productdetails" class="product_contenttabs firstdisplaytab_product">
                         <div class="row no-margin">
                             <div class="col-xs-12 nopad">
                                 <h2 class="product_tab_title_general">Item Specifics!</h2>
@@ -404,10 +404,62 @@
                     </div>
                 </div>
                 <div class="col-xs-12 padleft_right_20"> 
-                    <div id="sub_supplierdetails" class="product_contenttabs">Supplier Details</div>
+                    <div id="sub_supplierdetails" class="product_contenttabs">
+                        <div class="row no-margin">
+                            <div class="col-lg-8 col-sm-10 col-xs-12 nopad pad_right_special_container">
+                                <div class="row no-margin">
+                                    <div class="col-sm-10 col-xs-12 nopad">
+                                        <h2 class="product_tab_title_general">Get to Know the Supplier!</h2>
+                                    </div>
+                                </div>
+                                <div class="row no-margin">
+                                    <div class="col-xs-12 nopad right_bordered_reviews_container suplier_noborder_section w100_xxs">
+                                        <div class="row no-margin">
+                                            <div class="col-xs-3 nopad rounded_image_container w100_xxs">
+                                                <img src="images/first_rounded_image.png" alt="first_rounded_image" class="rounded_image" />											
+                                            </div>
+                                            <div class="col-xs-9 nopad w100_xxs"> 
+                                                <div class="review_desc_container">
+                                                    <div class="row no-margin">
+                                                        <div class="col-xs-12 nopad">
+                                                            <p class="user_review_info">
+                                                                <span class="name_txt">Majed Al Sajed</span>
+                                                                <span class="sep_bar_sup">|</span>
+                                                                <span class="flag_sup_img"><img src="images/product_country_flag.png" /></span>
+                                                                <span class="sep_bar_sup">|</span>
+                                                                <span class="rating_stars_images">
+                                                                    <span><img src="images/red_rating_star.png" /></span>
+                                                                    <span><img src="images/red_rating_star.png" /></span>
+                                                                    <span><img src="images/empty_rating_star.png" /></span>
+                                                                    <span><img src="images/empty_rating_star.png" /></span>
+                                                                    <span><img src="images/empty_rating_star.png" /></span>
+                                                                </span>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row no-margin">
+                                                        <div class="col-xs-12 nopad">
+                                                            <p class="user_review_text">
+                                                                It came quickly! there was a strongly wrinkled box, but the
+                                                                headphones work. A little too small pillows-my ears do not fully 
+                                                                moisture, but they are comfortable in. It came quickly! there was 
+                                                                a strongly wrinkled box, but the head phones work. A little too 
+                                                                small pillows-my ears do not fully moisture, but they are 
+                                                                comfortable.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-xs-12 padleft_right_20"> 
-                    <div id="sub_reviews" class="product_contenttabs firstdisplaytab_product">
+                    <div id="sub_reviews" class="product_contenttabs">
                         <div class="row no-margin">
                             <div class="col-lg-8 col-sm-10 col-xs-12 nopad pad_right_special_container">
                                 <div class="row no-margin">
@@ -444,12 +496,12 @@
                                     </div>
                                 </div>
                                 <div class="row no-margin">
-                                    <div class="col-sm-10 col-xs-12 nopad right_bordered_reviews_container">
+                                    <div class="col-xs-10 nopad right_bordered_reviews_container w100_xxs">
                                         <div class="row no-margin">
-                                            <div class="col-xs-3 nopad">
+                                            <div class="col-xs-3 nopad rounded_image_container w100_xxs">
                                                 <img src="images/first_rounded_image.png" alt="first_rounded_image" class="rounded_image" />											
                                             </div>
-                                            <div class="col-xs-9 nopad"> 
+                                            <div class="col-xs-9 nopad w100_xxs"> 
                                                 <div class="review_desc_container">
                                                     <div class="row no-margin">
                                                         <div class="col-xs-12 nopad">
@@ -483,13 +535,17 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="like_image_container">
+                                            <img class="like_logo" src="images/like_logo.png" />
+                                            <span class="num_of_likes">(9)</span>
+                                        </div>
                                     </div>
-                                    <div class="col-sm-10 col-xs-12 nopad right_bordered_reviews_container">
+                                    <div class="col-xs-10 nopad right_bordered_reviews_container w100_xxs">
                                         <div class="row no-margin">
-                                            <div class="col-xs-3 nopad">
+                                            <div class="col-xs-3 nopad rounded_image_container w100_xxs">
                                                 <img src="images/second_rounded_image.png" alt="second_rounded_image" class="rounded_image" />											
                                             </div>
-                                            <div class="col-xs-9 nopad"> 
+                                            <div class="col-xs-9 nopad w100_xxs"> 
                                                 <div class="review_desc_container">
                                                     <div class="row no-margin">
                                                         <div class="col-xs-12 nopad">
@@ -523,13 +579,17 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="like_image_container">
+                                            <img class="like_logo" src="images/like_logo.png" />
+                                            <span class="num_of_likes">(9)</span>
+                                        </div>
                                     </div>
-                                    <div class="col-sm-10 col-xs-12 nopad right_bordered_reviews_container">
+                                    <div class="col-xs-10 nopad right_bordered_reviews_container w100_xxs">
                                         <div class="row no-margin">
-                                            <div class="col-xs-3 nopad">
+                                            <div class="col-xs-3 nopad rounded_image_container w100_xxs">
                                                 <img src="images/third_rounded_image.png" alt="third_rounded_image" class="rounded_image" />											
                                             </div>
-                                            <div class="col-xs-9 nopad"> 
+                                            <div class="col-xs-9 nopad w100_xxs"> 
                                                 <div class="review_desc_container">
                                                     <div class="row no-margin">
                                                         <div class="col-xs-12 nopad">
@@ -563,6 +623,10 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="like_image_container">
+                                            <img class="like_logo" src="images/like_logo.png" />
+                                            <span class="num_of_likes">(9)</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -570,16 +634,228 @@
                     </div>
                 </div>
                 <div class="col-xs-12 padleft_right_20"> 
-                    <div id="sub_shippingpayment" class="product_contenttabs">Shipping & Payment</div>
+                    <div id="sub_shippingpayment" class="product_contenttabs">
+                        <div class="row no-margin">
+                            <div class="col-lg-8 col-sm-10 col-xs-12 nopad pad_right_special_container">
+                                <div class="row no-margin">
+                                    <div class="col-xs-12 nopad">
+                                        <h2 class="product_tab_title_general color_red_title">Shipping</h2>
+                                    </div>
+                                </div>
+                                <div class="row no-margin">
+                                    <div class="col-md-12 col-sm-6 col-xs-12 nopad">
+                                        <div class="row">
+                                            <div class="col-md-4 col-xs-12 margin_bottom_20 snd_cont_quant w100_xxs">
+                                                <div class="row no-margin">
+                                                    <div class="col-xs-12 nopad">
+                                                        <p class="medium_black_bold_txt">QUANTITY:</p>
+                                                    </div>
+                                                    <div class="col-xs-12 nopad">
+                                                        <div class="input-group_container">
+                                                            <div class="input-group">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="btn btn-default btn-number special_case" disabled="disabled" data-type="minus" data-field="quant[1]">
+                                                                        <span class="glyphicon glyphicon-chevron-down"></span>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" name="quant[1]" class="form-control input-number snippet_product font_normal" value="10" min="1" max="1000">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="btn btn-default btn-number special_case" data-type="plus" data-field="quant[1]">
+                                                                        <span class="glyphicon glyphicon-chevron-up"></span>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>	
+                                            </div>
+                                            <div class="col-md-4 col-xs-12 margin_bottom_20 w100_xxs">
+                                                <div class="row no-margin">
+                                                    <div class="col-xs-12 nopad">
+                                                        <p class="medium_black_bold_txt">Ship to:</p>
+                                                    </div>
+                                                    <div class="col-xs-12 nopad">
+                                                        <select name="" class="shipping_select">
+                                                            <option value="">Lebanon</option>
+                                                        </select>
+                                                    </div>
+                                                </div>	
+                                            </div>
+                                            <div class="col-md-4 col-xs-12 margin_bottom_20 w100_xxs">
+                                                <div class="row no-margin">
+                                                    <div class="col-xs-12 nopad">
+                                                        <p class="medium_black_bold_txt">Shipping Company:</p>
+                                                    </div>
+                                                    <div class="col-xs-12 nopad">
+                                                        <select name="" class="shipping_select">
+                                                            <option value="">Ali Express</option>
+                                                        </select>
+                                                    </div>
+                                                </div>	
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row no-margin">
+                                        <div class="col-md-12 col-sm-6 col-xs-12 nopad">
+                                            <div class="row">
+                                                <div class="col-md-4 col-xs-12 margin_bottom_20">
+                                                    <div class="row no-margin">
+                                                        <div class="col-xs-12 nopad">
+                                                            <p class="medium_black_bold_txt">Shipping Cost:</p>
+                                                        </div>
+                                                        <div class="col-xs-12 nopad">
+                                                            <p class="small_black_light_txt_pro">$3</p>
+                                                        </div>
+                                                    </div>	
+                                                </div>
+                                                <div class="col-md-4 col-xs-12 margin_bottom_20">
+                                                    <div class="row no-margin">
+                                                        <div class="col-xs-12 nopad">
+                                                            <p class="medium_black_bold_txt">Estimated Delivery time:</p>
+                                                        </div>
+                                                        <div class="col-xs-12 nopad">
+                                                            <p class="small_black_light_txt_pro">20 - 50 days</p>
+                                                        </div>
+                                                    </div>	
+                                                </div>
+                                                <div class="col-md-4 col-xs-12 margin_bottom_20">
+                                                    <div class="row no-margin">
+                                                        <div class="col-xs-12 nopad">
+                                                            <p class="medium_black_bold_txt">Tracking Information:</p>
+                                                        </div>
+                                                        <div class="col-xs-12 nopad">
+                                                            <p class="small_black_light_txt_pro">Available</p>
+                                                        </div>
+                                                    </div>	
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row no-margin">
+                                    <div class="col-xs-12 nopad">
+                                        <h2 class="product_tab_title_general color_red_title">Packaging Details</h2>
+                                    </div>
+                                </div>
+                                <div class="row no-margin">
+                                    <div class="col-xs-12 nopad">
+                                        <div class="row">
+                                            <div class="col-sm-4 col-xs-12 margin_bottom_20">
+                                                <div class="row no-margin">
+                                                    <div class="col-xs-12 nopad">
+                                                        <p class="medium_black_bold_txt">Unit Type:</p>
+                                                    </div>
+                                                    <div class="col-xs-12 nopad">
+                                                        <p class="small_black_light_txt_pro">Per Piece</p>
+                                                    </div>
+                                                </div>	
+                                            </div>
+                                            <div class="col-sm-4 col-xs-12 margin_bottom_20">
+                                                <div class="row no-margin">
+                                                    <div class="col-xs-12 nopad">
+                                                        <p class="medium_black_bold_txt">Package Size:</p>
+                                                    </div>
+                                                    <div class="col-xs-12 nopad">
+                                                        <p class="small_black_light_txt_pro">24cm x 10cm x 6cm</p>
+                                                    </div>
+                                                </div>	
+                                            </div>
+                                            <div class="col-sm-4 col-xs-12 margin_bottom_20">
+                                                <div class="row no-margin">
+                                                    <div class="col-xs-12 nopad">
+                                                        <p class="medium_black_bold_txt">Package Weight:</p>
+                                                    </div>
+                                                    <div class="col-xs-12 nopad">
+                                                        <p class="small_black_light_txt_pro">2 kg</p>
+                                                    </div>
+                                                </div>	
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row no-margin">
+                                    <div class="col-xs-12 nopad">
+                                        <h2 class="product_tab_title_general color_red_title">Payment Details</h2>
+                                    </div>
+                                </div>
+                                <div class="row no-margin">
+                                    <div class="col-xs-12 nopad margin_bottom_20">
+                                        <div class="row no-margin">
+                                            <div class="col-xs-12 nopad">
+                                                <p class="small_black_light_txt_pro">We support the following payment methods:</p>
+                                            </div>
+                                            <div class="col-xs-12 nopad payment_container_images">
+                                                <a href="#"><img src="images/visa.png" /></a>
+                                                <a href="#"><img src="images/am_ex.png" /></a>
+                                                <a href="#"><img src="images/master_card.png" /></a>
+                                            </div>
+                                        </div>	
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-xs-12 padleft_right_20"> 
-                    <div id="sub_sellerguarantees" class="product_contenttabs">Seller Guarantees</div>
+                    <div id="sub_sellerguarantees" class="product_contenttabs">
+                        <div class="row no-margin">
+                            <div class="col-lg-8 col-md-10 col-xs-12 nopad pad_right_special_container">
+                                <div class="row no-margin">
+                                    <div class="col-xs-12 nopad">
+                                        <h2 class="product_tab_title_general">You are Guaranteed!</h2>
+                                    </div>
+                                </div>
+                                <div class="row no-margin">
+                                    <div class="col-xs-12 nopad">
+                                        <h2 class="product_tab_title_general color_red_title margin_bottom_5 margin_top_0">Return Policy</h2>
+                                    </div>
+                                    <div class="col-xs-12 nopad">
+                                        <p class="small_italic_black">If the product you receive is not as described or low quality, the seller promises that you may return it 
+                                            before order completion (when you click ‘Confirm Order Received’ or exceed confirmation timeframe) and 
+                                            receive a full refund. The return shipping fee will be paid by you. Or, you can choose to keep the product 
+                                            and agree the refund amount directly with the seller.</p>
+                                    </div>
+                                </div>
+                                <div class="row no-margin">
+                                    <div class="col-xs-12 nopad">
+                                        <h2 class="product_tab_title_general color_red_title margin_bottom_5">Seller Service</h2>
+                                    </div>
+                                    <div class="col-xs-12 nopad">
+                                        <p class="small_italic_black">On-time Delivery<br/>
+                                            If you do not receive your purchase within 60 days, you can ask for a full refund before order completion 
+                                            (when you click ‘Confirm Order Received’ or exceed confirmation timeframe).</p>
+                                    </div>
+                                </div>
+                                <div class="row no-margin">
+                                    <div class="col-xs-12 nopad">
+                                        <h2 class="product_tab_title_general color_red_title font_nb">Buyer Protection</h2>
+                                    </div>
+                                </div>
+                                <div class="row no-margin">
+                                    <div class="col-xs-12 nopad">
+                                        <div class="row">
+                                            <div class="col-sm-6 col-xs-12">
+                                                <p class="big_red_number">1</p>
+                                                <p class="right_numb_txt">
+                                                    <span class="red_txt">Full Refund<br/>If you don’t receive your order</span><br/>
+                                                    <span class="black_italic_txt">You will get a full refund if your order doesnot arrive within the delivery time promised by the seller.</span>
+                                                </p>
+                                            </div>
+                                            <div class="col-sm-6 col-xs-12">
+                                                <p class="big_red_number">2</p>
+                                                <p class="right_numb_txt padding_left_47">
+                                                    <span class="red_txt">Full or Partial Refund<br/>If the item is not as described</span><br/>
+                                                    <span class="black_italic_txt">If your item is significantly different from the seller’s product description, you can<br/>A: Return it and get a full refund, or <br/>B: Get a partial refund and keep the item.</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-
-
-
         </section>
         <!-- PRODUCT PAGE END  -->
         <!-- =========================================================================--> 
