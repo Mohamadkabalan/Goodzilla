@@ -66,9 +66,84 @@
                     </div>
                     <div class="login_container col-lg-5 col-md-4 col-xs-12 nopad">
                         <ul class="login_menu_list">
-                            <li class="orders_list_element"><img src="images/orders_logo.png" alt="orders_logo" /><a href="#">Orders: <span>0</span></a></li>
-                            <li class="carts_list_element"><img src="images/cart_logo.png" alt="cart_logo" /><a href="#">Carts: <span>0</span></a></li>
-                            <li class="favorites_list_element"><img src="images/favorites_logo.png" alt="favorites_logo" /><a href="#">Favorites: <span>0</span></a></li>
+                            <li class="orders_list_element"><a href="#"><span class="menu_icons"><i class="fas fa-shopping-bag"></i></span>Orders: <span>0</span></a></li>
+                            <li class="carts_list_element"><a href="#"><span class="menu_icons"><i class="fas fa-shopping-cart cart_logo"></i></span><span>Carts: </span><span>0</span></a>
+                                <div id="cart_absolute_container">
+                                    <div class="col-xs-12 nopad cart_relative_container">
+                                        <div class="row no-margin parent">
+                                            <div class="col-xs-12 nopad cart_content_container">
+                                                <div class="cart_close_but">X</div>
+                                                <div class="row no-margin">
+                                                    <div class="col-xs-12 nopad item_in_cart_container">
+                                                        <div class="row no-margin item_in_cart_row">
+                                                            <div class="col-xs-4 nopad">
+                                                                <img class="product_in_cart_img" src="images/headphone_thumb.png" alt="headphone_thumb" />
+                                                                <p class="product_in_cart_title">HEADPHONES<p>
+                                                                <p class="product_in_cart_sub_titile">MIXCDER HD901<p>
+                                                            </div>
+                                                            <div class="col-xs-4 nopad">
+                                                                <div class="input-group_container centered_input_groupe_container">
+                                                                    <div class="input-group">
+                                                                        <span class="input-group-btn">
+                                                                            <button type="button" class="btn btn-default btn-number special_case" disabled="disabled" data-type="minus" data-field="quant[1]">
+                                                                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                                                            </button>
+                                                                        </span>
+                                                                        <input type="text" name="quant[1]" class="form-control input-number snippet_product font_normal" value="10" min="1" max="1000">
+                                                                        <span class="input-group-btn">
+                                                                            <button type="button" class="btn btn-default btn-number special_case" data-type="plus" data-field="quant[1]">
+                                                                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                                                            </button>
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xs-4 nopad">
+                                                                <p class="product_in_cart_price">75,000 LL<p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xs-12 nopad item_in_cart_container">
+                                                        <div class="row no-margin item_in_cart_row">
+                                                            <div class="col-xs-4 nopad">
+                                                                <img class="product_in_cart_img" src="images/headphone_thumb.png" alt="headphone_thumb" />
+                                                                <p class="product_in_cart_title">HEADPHONES<p>
+                                                                <p class="product_in_cart_sub_titile">MIXCDER HD901<p>
+                                                            </div>
+                                                            <div class="col-xs-4 nopad">
+                                                                <div class="input-group_container centered_input_groupe_container">
+                                                                    <div class="input-group">
+                                                                        <span class="input-group-btn">
+                                                                            <button type="button" class="btn btn-default btn-number special_case" disabled="disabled" data-type="minus" data-field="quant[1]">
+                                                                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                                                            </button>
+                                                                        </span>
+                                                                        <input type="text" name="quant[1]" class="form-control input-number snippet_product font_normal" value="10" min="1" max="1000">
+                                                                        <span class="input-group-btn">
+                                                                            <button type="button" class="btn btn-default btn-number special_case" data-type="plus" data-field="quant[1]">
+                                                                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                                                            </button>
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xs-4 nopad">
+                                                                <p class="product_in_cart_price">75,000 LL<p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xs-12 nopad item_in_cart_checkout_container">
+                                                        <a class="cart_inside_but" href="#">VIEW CART</a>
+                                                        <a class="cart_inside_but" href="#">CHECK OUT</a>
+                                                        <p class="product_in_cart_total_price"><span class="product_in_cart_total_price_t">TOTAL</span><span>=  150,000 LL</span><p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="favorites_list_element"><a href="#"><span class="menu_icons"><i class="fas fa-heart"></i></span>Favorites: <span>0</span></a></li>
                             <li class="login_list_element"><span><a href="#">Log-in</a></span><span><img src="images/login_separator_bar.png" alt="login_separator_bar" /></span><span><a href="#">Sign up</a></span></li>
                         </ul>
                     </div>
@@ -203,6 +278,5 @@
         <script type="text/javascript" src="js/jquery.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/GOODZILLA.js"></script>
-        <script type="text/javascript" src="js/adminpages.js"></script>
     </body>
 </html>
