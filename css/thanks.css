@@ -1,0 +1,10 @@
+.navbar-default{border-bottom: 1px solid #C2C4C6;}
+.thankspage_container{text-align:center;}
+.thankspage_container h1{font-size:69px;font-family:nexa-bold;margin-top: 60px;font-weight:normal;color:#231F20;}
+.thankspage_container h2{font-size:37.5px;color:#C2262E;font-weight:normal;margin-top: 0;}
+.thankspage_container img{margin-top: 10px;margin-bottom: 60px;}
+
+@media (max-width: 490px) {
+	.thankspage_container h1{font-size:40px;}
+.thankspage_container h2{font-size:22px;}
+}
