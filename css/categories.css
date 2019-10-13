@@ -1,0 +1,52 @@
+.image_max_height{max-height:275px;}
+.margin_top_50{margin-top:50px;}
+.margin_top_40{margin-top:40px;}
+.margin_top_70{margin-top:70px;}
+.margin_bottom_30{margin-bottom:30px;}
+/* CSS floating Menu */
+.goodzilla-bottom-nav{line-height:30px;}
+.goodzilla-bottom-nav .navbar-toggle{border-radius:0;margin:0;width:100%;border:0;background-color:#FFFFFF;color: #00b7d9;font-size: 24px;height: 60px;}
+.goodzilla-bottom-nav .navbar-toggle{
+    -webkit-box-shadow: 0 0 10px 5px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0 0 10px 5px rgba(0,0,0,0.4);
+    -o-box-shadow: 0 0 10px 5px rgba(0,0,0,0.4);
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.4);
+}
+.goodzilla-bottom-nav .navbar-toggle:focus,.goodzilla-bottom-nav .navbar-toggle:hover{background-color:#FFFFFF;color: #00b7d9;}
+.goodzilla-bottom-nav .navbar-default,.goodzilla-bottom-nav.navbar-fixed-bottom,.goodzilla-bottom-nav .navbar-collapse{border:0;}
+.goodzilla-bottom-nav .navbar-nav{margin:0;}
+.goodzilla-bottom-nav.navbar{min-height:0;}
+.goodzilla-bottom-nav.navbar-fixed-bottom{position: fixed !important;}
+.goodzilla-bottom-nav.navbar-fixed-bottom .navbar-collapse{max-height:calc(100vh - 60px);margin: 0px;padding: 20px 35px;}
+@media (max-width: 991px){
+    .goodzilla-bottom-nav .navbar-left,.goodzilla-bottom-nav .navbar-right,.goodzilla-bottom-nav .navbar-nav{float:none !important;}
+    .goodzilla-bottom-nav .navbar-toggle{display:block;}
+    .goodzilla-bottom-nav .navbar-header,.goodzilla-bottom-nav .navbar-nav>li{float:none;}
+    .goodzilla-bottom-nav .navbar-collapse.collapse{display:none!important;}
+    .goodzilla-bottom-nav .navbar-collapse.collapse.in{display:block !important;}
+    .goodzilla-bottom-nav .navbar-collapse.in{overflow-y: auto !important;}
+}
+/*end overwrite small resolution*/
+
+/* left Menu */
+#more, #more2, #more3, #more4 {display: none;}
+.categorie_menue_title{font-size:33.7px;color:#000000;margin-top:0;font-family:nexa-bold;}
+.categorie_list_menu{font-size:22.5px;color:#000000;line-height: 40px;}
+.categorie_list_menu a{font-size:22.5px;color:#000000;text-decoration:none;}
+.categorie_list_menu a:hover{opacity:0.6;}
+#morelessBtn, #morelessBtn2, #morelessBtn3, #morelessBtn4 {color:#C2262E;font-size:11.5px;border:none;background-color:transparent;padding:0;font-family:nexa-italic;outline:none;}
+#morelessBtn:hover, #morelessBtn2:hover, #morelessBtn3:hover, #morelessBtn4:hover{opacity:0.6;}
+.label_span{margin-left:10px;color:#000000;font-size:17px;font-weight:normal;}
+.categories_filter_checkbox_container .checkbox_container{margin-bottom:0;}
+
+/* slider */
+.slider.slider-horizontal .slider-track {height: 1px;left: 10px;margin-top: -5px;top: 50%;width: 100%;}
+.slider-selection {background-color: #000000;background-image: none;}
+.slider-handle { background-color: #FFFFFF;background-image: none;height: 15px;width: 15px;border:2px solid #C2262E;}
+.slider.slider-horizontal .slider-tick,.slider.slider-horizontal .slider-handle {margin-left: -10px;margin-top: -7px;}
+.slider.slider-horizontal {width: 100%;max-width: 100%;}
+.slider_btw_values .high{top: 22px;right:-17px;position: absolute;color:#000000;font-size:20px;font-family:nexa-italic;}
+.slider_btw_values .low{top: 22px;left:0;position: absolute;color:#000000;font-size:20px;font-family:nexa-italic;}
+/* slider END */
+
+/* left Menu END*/
