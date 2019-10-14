@@ -50,3 +50,42 @@
 /* slider END */
 
 /* left Menu END*/
+
+/* RIGHT SECTION*/
+.categories_big_title{font-size:48px;color:#C2262E;margin-top:0;float:left;line-height: 48px;}
+.categories_big_title span{font-family:nexa-bold;}
+.filter_by_container{float:right;min-width:148px;padding-right:5px;text-align:right;}
+label.filterby_txt{width:100%;margin-bottom: 0;font-weight:normal;}
+.filterby_txt{font-size:20px;color:#000000;}
+select.filterby_select{outline: none;margin-left: -4px;width: auto; height: 25px; border: none; padding-left: 0px; background: url("../images/down_arrow.png") no-repeat scroll right center; appearance:none;-moz-appearance:none;-webkit-appearance:none;cursor: pointer;font-size:22px;font-family:Nexa;padding-right: 12px;}
+select.filterby_select option{padding-left:0;}
+.cat_product_img_container{background-color: #FFF;position:relative;width:100%;float:left;border:1px solid #DEDFE0;}
+.margin_top_20{margin-top:20px;}
+.padd_img_cont{padding:25px 50px;}
+.padd_txt_cont{padding:15px;}
+.cat_product_img_container a h2.product_title_smal{font-size:20px;line-height:25px;margin-bottom:0;font-family:nexa-bold;margin-top: 10px;color:#000000;}
+.cat_product_img_container a h2.product_title_smal .orange_bullet::before {font-size: 20px;content: ' \25CF';color:#d7b276;position: absolute;margin-left: 7px;}
+.cat_ppp{font-size:20px;line-height:25px;color:#000000;margin-bottom:0;}
+.cat_ppp span{font-size:13px;text-transform:uppercase;}
+.cat_mo{font-size:16px;line-height:25px;color:#000000;}
+.cat_mo span{font-size:14px;font-family:nexa-bold;}
+.cat_product_img_container a{text-decoration:none;}
+.rating_and_cot_sup_container{font-size:16px;color:#000000;line-height:20px;margin-bottom:0;text-decoration:none;}
+.rating_and_cot_sup_container:hover{text-decoration:none;}
+.rating_and_cot_sup_container span.ver_img_sup img{width: 17px;margin-left:5px;margin-right:5px;}
+.rating_and_cot_sup_container span.rating_stars_images span img{margin-right:0px;}
+.email_support_img{padding-left: 5px;padding-right: 5px;width: 30px;}
+.email_support{font-size:16px;color:#000000;}
+.email_support:hover{color:#000000;}
+.sep_bar_sup{cursor:default;color:black;}
+.sep_bar_sup:hover{color:black;}
+
+@media (max-width: 750px){
+    .categories_big_title{font-size:34px;}
+    select.filterby_select{font-size:20px;margin-top:4px;}
+}
+@media (max-width: 550px){
+    .categories_big_title{font-size:27px;}
+    select.filterby_select{font-size:19px;margin-top:8px;}
+}
+/* RIGHT SECTION END*/
