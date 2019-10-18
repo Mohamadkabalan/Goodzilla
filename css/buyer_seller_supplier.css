@@ -1,0 +1,26 @@
+.navbar-default{border-bottom: 1px solid #C2C4C6;}
+.bss_blacktitle{color:#231F20;font-size:49px;margin-bottom:0;margin-top:30px;font-family:nexa-bold;}
+.bss_redtitle{color:#C2262E;font-size:49px;margin-top:0px;font-family:nexa-bold;}
+.bss_italic_subtitle{color:#000000;font-size:21px;font-family:nexa-italic;}
+.margin_top_10{margin-top:10px;}
+.margin_top_40{margin-top:40px;}
+.margin_top_30{margin-top:30px;}
+.margin_bottom_20{margin-bottom:20px;}
+.bss_cmn_txt{color:#000000;font-size:18px;line-height:20px;}
+.bss_img_grey_cont{width:192px;height:192px;background-color:#DADBDC;}
+.absolute_bss_img_cont{width:110px;height:104px;margin:0 auto;}
+.bss_img_grey_cont img{width:100%;height:104px;margin-top: 44px;}
+.bss_txt_img_cont{margin-top:15px;width:192px;}
+.middle_bss_text{color:#C2262E;font-size:32px;margin-top:0px;font-family:nexa-italic;text-align:center;}
+.bss_big_red_number{font-size:62px;color:#C2262E;font-family:nexa-bold;position: absolute;top: -18px;}
+.bss_right_numb_txt{float:left;padding-left: 50px;}
+.bss_right_numb_txt span.right_numb_txt_big{font-size:27px;color:#231F20;line-height: 27px;}
+.bss_right_numb_txt span.right_numb_txt_small{color: #000000;font-size: 16.5px;line-height: 16px;}
+.terms_cond_label{font-size:11px;color:#C2262E;font-family:nexa-italic;text-transform:uppercase;font-weight:normal;padding-left:30px;margin-bottom: 5px;padding-top: 5px;}
+
+.checkmark.smal_red_checkmark{background-color:#FFFFFF;border:2px solid #C2262E;height: 21px;width: 21px;}
+.checkbox_container .checkmark.smal_red_checkmark:after {border: solid black;border-width: 0 3px 3px 0;left: 8px;top: 1px;}
+
+@media (max-width: 530px) {
+	.bss_xxs_fw{width:100%;}
+}
