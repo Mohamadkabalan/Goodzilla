@@ -1,4 +1,5 @@
 .navbar-default{border-bottom: 1px solid #C2C4C6;}
+/* CSS overview */
 .bss_blacktitle{color:#231F20;font-size:49px;margin-bottom:0;margin-top:30px;font-family:nexa-bold;}
 .bss_redtitle{color:#C2262E;font-size:49px;margin-top:0px;font-family:nexa-bold;}
 .bss_italic_subtitle{color:#000000;font-size:21px;font-family:nexa-italic;}
@@ -6,6 +7,7 @@
 .margin_top_40{margin-top:40px;}
 .margin_top_30{margin-top:30px;}
 .margin_bottom_20{margin-bottom:20px;}
+.margin_bottom_30{margin-bottom:30px;}
 .bss_cmn_txt{color:#000000;font-size:18px;line-height:20px;}
 .bss_img_grey_cont{width:192px;height:192px;background-color:#DADBDC;}
 .absolute_bss_img_cont{width:110px;height:104px;margin:0 auto;}
@@ -17,10 +19,57 @@
 .bss_right_numb_txt span.right_numb_txt_big{font-size:27px;color:#231F20;line-height: 27px;}
 .bss_right_numb_txt span.right_numb_txt_small{color: #000000;font-size: 16.5px;line-height: 16px;}
 .terms_cond_label{font-size:11px;color:#C2262E;font-family:nexa-italic;text-transform:uppercase;font-weight:normal;padding-left:30px;margin-bottom: 5px;padding-top: 5px;}
-
 .checkmark.smal_red_checkmark{background-color:#FFFFFF;border:2px solid #C2262E;height: 21px;width: 21px;}
-.checkbox_container .checkmark.smal_red_checkmark:after {border: solid black;border-width: 0 3px 3px 0;left: 8px;top: 1px;}
+.checkbox_container .checkmark.smal_red_checkmark:after {border: solid black;border-width: 0 3px 3px 0;left: 6px;top: 1px;}
+.reg_bss_link{font-size:22.5px;text-decoration:underline;color:#231F20;display:block;font-family:nexa-bold;text-align:center;}
+.reg_bss_link:hover{color:#231F20;}
+.services_title_bss{font-size:19.6px;color:#C2262E;font-family:nexa-bold;}
+.list_services_bss{font-size:18.2px;color:#231F20;}
 
 @media (max-width: 530px) {
 	.bss_xxs_fw{width:100%;}
+	.bss_blacktitle{font-size:40px;}
+	.bss_redtitle{font-size:40px;}
 }
+/*end overview*/
+
+/* CSS Registration */
+.ins_img_container{width:250px;height:250px;margin:0 auto;}
+.bss_ins_photo_link{font-size:17px;position:absolute;color:#C2262E;background: rgba(194, 38, 46, .3);text-decoration:none;font-weight: bold;margin-left:7px;}
+.bss_ins_photo_link:hover{color:#C2262E;text-decoration:none;}
+.bss_ins_photo_link_container{width:152px;border-bottom:1px solid #CBCCCE;position:absolute;top:110px;margin-left:49px;height:28px;}
+.op_bss{position:absolute;color:#C2262E;font-size:10px;bottom:15px;margin-left:97px;}
+.bss_register_title{color:#231F20;font-family:nexa-bold;font-size:28px;margin-bottom:20px;}
+.bss_form .login_input input{width:90%;}
+.bss_form .login_input select{width:90%;}
+.payment_container_images img{float:left;margin-right:5px;margin-bottom: 20px;}
+.resume_txt{color: #C2262E;font-size: 16.3px;font-family: nexa-bold;margin-bottom:0;float:left;margin-right:15px;margin-top:5px;}
+.padding_top_40{padding-top:40px;}
+[hidden] {
+  display: none !important;
+}
+.upload_but{width:138px;height:35px;border:1px solid #CBCCCE;background-color:white;color:#C2262E;font-size:16.3px;border-radius:10px;}
+.intrest_links{text-decoration:none;width:138px;height:35px;border:1px solid #CBCCCE;background-color:white;color:#C2262E;font-size:13px;border-radius:10px;display:block;margin-right:9px;float:left;line-height:35px;text-align:center;font-family:nexa-bold;margin-bottom:8px;}
+.intrest_links:hover{color:#C2262E;text-decoration:none;}
+/*end Registration*/
+
+/* CSS congrats */
+.congrats_container{background-color:#C2262E;padding:80px 40px;text-align:center;}
+.congrats_title{font-size:46.8px;color:#FFFFFF;font-family:nexa-bold;margin-top:0;margin-bottom:40px;}
+.big_right_star{width:50px;height:57px;margin-top: -66px;margin-left: 5px;}
+.small_left_star{width:35px;height:39px;margin-right: 10px;margin-top: 30px;}
+.cngrats_comn_txt{font-size:16.3px;color:white;margin-bottom:20px;}
+.capital_text{text-transform:uppercase;}
+.k_congrats{display:block;width:98px;height:35px;color:#C2262E;font-size:12.9px;text-transform:uppercase;background-color:#FFFFFF;line-height:35px;text-align:center;border-radius:10px;margin: 0 auto;}
+@media (max-width: 530px) {
+	.congrats_container{padding:45px 10px}
+	.congrats_title{font-size:42px;}
+}
+/*end congrats*/
+
+/* CSS certified */
+.centered_container{text-align:center;}
+.certified_header{font-size:46.8px;color:#C2262E;font-family:nexa-bold;}
+.certified_sub{font-size:27px;color:#C2262E;}
+.services_label{font-size:16.3px;color:#C2262E;font-family:nexa-bold;text-transform:uppercase;font-weight:normal;padding-left:30px;margin-bottom: 5px;}
+/*end certified*/
