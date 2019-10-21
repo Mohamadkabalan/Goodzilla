@@ -265,6 +265,7 @@ label.small_black_bold_txt_pro{width:100%;margin-bottom: 0;}
 /* THIRD TAB PAGE START CSS */
 .suplier_noborder_section{border-right:none;}
 .suplier_noborder_section .rounded_image{max-width:150px;}
+.scrolled_container{height:100%;max-height:400px;overflow:auto;}
 /* END THIRD TAB PAGE CSS =================================================================================================================================== */
 
 /* 4th TAB PAGE START CSS */

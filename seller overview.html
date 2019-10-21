@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Seller Overview</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="image/vnd.microsoft.icon" href="images/goodzilla_logo.ico" rel="shortcut icon">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+        <link rel="stylesheet" href="css/GOODZILLA.css">
+        <link rel="stylesheet" href="css/buyer_seller_supplier.css">
+
+        <!--[if lte IE 8]>
+        <style type="text/css" media="all">
+        @import url("css/compiled/ie8.css?o6qu32");
+        </style>
+        <![endif]-->
+
+        <!--[if lte IE 7]>
+        <style type="text/css" media="all">
+        @import url("css/compiled/ie7.css?o6qu32");
+        </style>
+        <![endif]-->
+
+        <!--[if lte IE 6]>
+        <style type="text/css" media="all">
+        @import url("css/compiled/ie6.css?o6qu32");
+        </style>
+        <![endif]-->
+
+    </head>
+    <body>
+        <section class="header container-fluid">
+            <!-- FIRST MENU START -->
+            <div class="first_menu">
+                <div class="row no-margin">
+                    <div class="hearder-container col-lg-3 col-md-4 col-xs-6 xxs_width nopad">
+                        <div class="logo-wrap"><a title="goodzilla_logo" href="index.html"><img src="images/goodzilla_logo.png" alt="goodzilla_logo" /></a></div>
+                    </div>
+                    <div class="search-container col-md-4 col-xs-6 nopad xxs_width product_list">
+                        <div class="row no-margin">
+                            <div class="product_search_container col-xs-4 nopad">
+                                <p>PRODUCT</p>
+                                <div class="product_list_arrow_container">
+                                    <img src="images/down_arrow.png" alt="down_arrow" />
+                                </div>
+                                <div class="list_of_product_hidden_container">
+                                    <div class="row no-margin">
+                                        <div class="col-xs-12 nopad">
+                                            <div class="product_options">product 1</div>
+                                            <div class="product_options">product 2</div>
+                                            <div class="product_options">product 3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lookingFor_container col-xs-8 nopad">
+                                <div class="row no-margin">
+                                    <div class="col-lg-11 col-sm-10 col-xs-12 nopad">
+                                        <input type="text" id="replacable_text" name="" value="" placeholder="what are you looking for?">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="login_container col-lg-5 col-md-4 col-xs-12 nopad">
+                        <ul class="login_menu_list">
+                            <li class="orders_list_element"><a href="#"><span class="menu_icons"><i class="fas fa-shopping-bag"></i></span>Orders: <span>0</span></a></li>
+                            <li class="carts_list_element"><a href="#"><span class="menu_icons"><i class="fas fa-shopping-cart cart_logo"></i></span><span>Carts: </span><span>0</span></a>
+                                <div id="cart_absolute_container">
+                                    <div class="col-xs-12 nopad cart_relative_container">
+                                        <div class="row no-margin parent">
+                                            <div class="col-xs-12 nopad cart_content_container">
+                                                <div class="cart_close_but">X</div>
+                                                <div class="row no-margin">
+                                                    <div class="col-xs-12 nopad item_in_cart_container">
+                                                        <div class="row no-margin item_in_cart_row">
+                                                            <div class="col-xs-4 nopad">
+                                                                <img class="product_in_cart_img" src="images/headphone_thumb.png" alt="headphone_thumb" />
+                                                                <p class="product_in_cart_title">HEADPHONES<p>
+                                                                <p class="product_in_cart_sub_titile">MIXCDER HD901<p>
+                                                            </div>
+                                                            <div class="col-xs-4 nopad">
+                                                                <div class="input-group_container centered_input_groupe_container">
+                                                                    <div class="input-group">
+                                                                        <span class="input-group-btn">
+                                                                            <button type="button" class="btn btn-default btn-number special_case" disabled="disabled" data-type="minus" data-field="quant[1]">
+                                                                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                                                            </button>
+                                                                        </span>
+                                                                        <input type="text" name="quant[1]" class="form-control input-number snippet_product font_normal" value="10" min="1" max="1000">
+                                                                        <span class="input-group-btn">
+                                                                            <button type="button" class="btn btn-default btn-number special_case" data-type="plus" data-field="quant[1]">
+                                                                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                                                            </button>
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xs-4 nopad">
+                                                                <p class="product_in_cart_price">75,000 LL<p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xs-12 nopad item_in_cart_container">
+                                                        <div class="row no-margin item_in_cart_row">
+                                                            <div class="col-xs-4 nopad">
+                                                                <img class="product_in_cart_img" src="images/headphone_thumb.png" alt="headphone_thumb" />
+                                                                <p class="product_in_cart_title">HEADPHONES<p>
+                                                                <p class="product_in_cart_sub_titile">MIXCDER HD901<p>
+                                                            </div>
+                                                            <div class="col-xs-4 nopad">
+                                                                <div class="input-group_container centered_input_groupe_container">
+                                                                    <div class="input-group">
+                                                                        <span class="input-group-btn">
+                                                                            <button type="button" class="btn btn-default btn-number special_case" disabled="disabled" data-type="minus" data-field="quant[1]">
+                                                                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                                                            </button>
+                                                                        </span>
+                                                                        <input type="text" name="quant[1]" class="form-control input-number snippet_product font_normal" value="10" min="1" max="1000">
+                                                                        <span class="input-group-btn">
+                                                                            <button type="button" class="btn btn-default btn-number special_case" data-type="plus" data-field="quant[1]">
+                                                                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                                                            </button>
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xs-4 nopad">
+                                                                <p class="product_in_cart_price">75,000 LL<p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xs-12 nopad item_in_cart_checkout_container">
+                                                        <a class="cart_inside_but" href="#">VIEW CART</a>
+                                                        <a class="cart_inside_but" href="#">CHECK OUT</a>
+                                                        <p class="product_in_cart_total_price"><span class="product_in_cart_total_price_t">TOTAL</span><span>=  150,000 LL</span><p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="favorites_list_element"><a href="#"><span class="menu_icons"><i class="fas fa-heart"></i></span>Favorites: <span>0</span></a></li>
+                            <li class="login_list_element"><span><a href="#">Log-in</a></span><span><img src="images/login_separator_bar.png" alt="login_separator_bar" /></span><span><a href="#">Sign up</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- FIRST MENU END -->
+            <!-- =========================================================================-->
+
+            <!-- SCND MENU START-->
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>                        
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav scnd_menu_list">
+                            <li><a href="#" class="active">CATEGORIES</a></li>
+                            <li><a href="#">ABOUT US</a></li>
+                            <li><a href="#">SERVICES</a></li>
+                            <li><a href="#">CONTACT US</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right user_logo_container">
+                            <a href="#"><img src="images/user.png" alt="user" /></a>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- SCND MENU END  -->
+            <!-- ========================================================================= -->
+        </section>
+        <!-- Seller overview PAGE START  -->
+        <section class="container-fluid">
+            <div class="row no-margin">
+                <div class="col-xs-12 overview_container">
+					<div class="row no-margin">
+						<div class="col-xs-12 nopad">
+							<h2 class="bss_blacktitle">Seller</h2>
+							<h2 class="bss_redtitle">Overview!</h2>
+						</div>
+					</div>
+					<div class="row no-margin">
+						<div class="col-xs-12 nopad margin_top_10">
+							<h3 class="bss_italic_subtitle margin_bottom_20 margin_top_40">WHAT’S IN IT FOR YOU?</h3>
+							<p class="bss_cmn_txt">For starters, earning some extra money while managing your own time. As a qualified sales partner, we will make sure you
+								have interesting products to promote and earn commission on. As far as we’re concerned, you don’t have to limit yourself 
+								to a budget, time or market as long as you achieve your goals. We will even incentivize you with a reward system and help 
+								you learn as much as you can about the market you’re servicing. Are you ready to take on the next sales challenge?</p>
+						</div>
+					</div>
+					<div class="row no-margin">
+						<div class="col-xs-12 nopad margin_top_40">
+							<div class="row no-margin">
+								<div class="col-md-3 col-xs-6 bss_xxs_fw nopad">
+									<div class="bss_img_grey_cont">
+										<div class="absolute_bss_img_cont">
+											<img src="images/commission.png" alt="commission" />
+										</div>
+									</div>
+									<div class="bss_txt_img_cont">
+										<p class="bss_cmn_txt">Earn commission on every sale</p>
+									</div>
+								</div>
+								<div class="col-md-3 col-xs-6 bss_xxs_fw nopad">
+									<div class="bss_img_grey_cont">
+										<div class="absolute_bss_img_cont">
+											<img src="images/more_sell.png" alt="more_sell" />
+										</div>
+									</div>
+									<div class="bss_txt_img_cont">
+										<p class="bss_cmn_txt">The more you sell,the more you earn
+											</p>
+									</div>
+								</div>
+								<div class="col-md-3 col-xs-6 bss_xxs_fw nopad">
+									<div class="bss_img_grey_cont">
+										<div class="absolute_bss_img_cont">
+											<img src="images/reward_hw.png" alt="reward_hw" />
+										</div>
+									</div>
+									<div class="bss_txt_img_cont">
+										<p class="bss_cmn_txt">Every hard work deserves a reward.
+													</p>
+									</div>
+								</div>
+								<div class="col-md-3 col-xs-6 bss_xxs_fw nopad">
+									<div class="bss_img_grey_cont">
+										<div class="absolute_bss_img_cont">
+											<img src="images/goodz_sell.png" alt="goodz_sell" />
+										</div>
+									</div>
+									<div class="bss_txt_img_cont">
+										<p class="bss_cmn_txt">Sell the goodz in your
+																own special way.
+																Create your customers!</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row no-margin">
+						<div class="col-xs-12 nopad margin_top_30">
+							<h4 class="middle_bss_text">It's your time to shine.<br/>Hit the market and show us what you've got.<h4>
+						</div>
+					</div>
+					<div class="row no-margin">
+						<div class="col-xs-12 nopad margin_top_40">
+							<h2 class="bss_redtitle">How To Register</h2>
+							<h3 class="bss_italic_subtitle">HOW DOES IT WORK?</h3>
+						</div>
+					</div>
+					<div class="row no-margin margin_top_30">
+						<div class="col-sm-4 col-xs-12">
+							<p class="bss_big_red_number">1</p>
+							<p class="bss_right_numb_txt"> 
+								<span class="right_numb_txt_big">Tell us about<br/>your company</span><br/><br/>
+								<span class="right_numb_txt_small">a.  The name<br/>b.  The profile<br/>c.  The contact person<br/>d.  The email<br/>e.  The phone number<br/>f.  Choose the products category you favor<br/>g. Pass the interview</span>
+							</p>
+						</div>
+						<div class="col-sm-4 col-xs-12">
+							<p class="bss_big_red_number">2</p>
+							<p class="bss_right_numb_txt"> 
+								<span class="right_numb_txt_big">Bank Details</span><br/><br/>
+								<span class="right_numb_txt_small">a. Fill bank account details<br/>b. Activtate your account</span>
+							</p>
+						</div>
+						<div class="col-sm-4 col-xs-12">
+							<p class="bss_big_red_number">3</p>
+							<p class="bss_right_numb_txt"> 
+								<span class="right_numb_txt_big">Start Selling!</span><br/><br/>
+								<span class="right_numb_txt_small">a. Interact with your network of buyers!</span>
+							</p>
+						</div>
+					</div>
+					<div class="row no-margin">
+						<div class="col-xs-12 nopad margin_top_40">
+							<h2 class="bss_redtitle margin_bottom_20">Terms & Conditions!</h2>
+							<p class="bss_cmn_txt">Terms and Conditions agreements act as a legal contract between you (the company)
+							who has the website or mobile app and the user who access your website and mobile app.<br/><br/>
+							Having a Terms and Conditions agreement is completely optional. No laws require you to have one. Not even the 
+							super-strict and wide-reaching General Data Protection Regulation (GDPR).<br/><br/>
+							It’s up to you to set the rules and guidelines that the user must agree to. You can think of your Terms and Conditions 
+							agreement as the legal agreement where you maintain your rights to exclude users from your app in the event that 
+							they abuse your app, where you maintain your legal rights against potential app abusers, and so on.<br/><br/>
+							Terms and Conditions are also known as Terms of Service or Terms of Use.</p>
+						</div>
+					</div>
+					<div class="row no-margin">
+						<div class="col-xs-12 nopad">
+							<label class="checkbox_container terms_cond_label">DO YOU AGREE TO THE TERMS & CONDITIONS
+								<input type="checkbox">
+								<span class="checkmark smal_red_checkmark"></span>
+							</label>
+						</div>
+					</div>
+					<div class="row no-margin">
+						<div class="col-xs-12 nopad">
+							<a href="#" class="reg_bss_link margin_top_30 margin_bottom_20">Let’s Register!</a>
+						</div>
+					</div>
+                </div>
+		    </div>
+        </section>
+        <!-- Seller overview PAGE END  -->
+        <!-- =========================================================================--> 
+
+        <!-- FOOTER START -->
+        <section class="footer container-fluid">
+            <div class="row no-margin">
+                <div class="footer_container col-xs-12 nopad">
+                    <div class="row no-margin">
+                        <div class="col-sm-7 col-xs-12 nopad">
+                            <div class="row no-margin">
+                                <div class="col-sm-3 col-xs-6 nopad">
+                                    <ul class="footer_list">
+                                        <li class="title_footer_list"><a href="#">CATEGORIES</a></li>
+                                        <li><a href="#">Electronics</a></li>
+                                        <li><a href="#">Clothes</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-3 col-xs-6 nopad">
+                                    <ul class="footer_list">
+                                        <li class="title_footer_list"><a href="#">ABOUT US</a></li>
+                                        <li><a href="#">About Goodzillas</a></li>
+                                        <li><a href="#">Overviews</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-3 col-xs-6 nopad">
+                                    <ul class="footer_list">
+                                        <li class="title_footer_list"><a href="#">Customer Service</a></li>
+                                        <li><a href="#">Help Center</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                        <li><a href="#">Report Abuse</a></li>
+                                        <li><a href="#">Submit a Dispute</a></li>
+                                        <li><a href="#">Policies & Rules</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-3 col-xs-6 nopad">
+                                    <ul class="footer_list">
+                                        <li class="title_footer_list"><a href="#">TERMS & CONDITIONS</a></li>
+                                        <li><a href="#">Help Center</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                        <li><a href="#">Report Abuse</a></li>
+                                        <li><a href="#">Submit a Dispute</a></li>
+                                        <li><a href="#">Policies & Rules</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-5 col-xs-12 nopad">
+                            <div class="row no-margin">
+                                <div class="col-md-4 col-xs-6 nopad">
+                                    <div class="row no-margin">
+                                        <div class="col-xs-12 nopad">
+                                            <a href="#" class="big_footer_wt">FOLLOW US</a>
+                                        </div>
+                                        <div class="col-xs-12 nopad">
+                                            <ul class="social_links_list_container">
+                                                <li><a href="#"><i class="fab fa-instagram fa-3x fab_social"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-facebook-square fa-3x fab_social"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-twitter-square fa-3x fab_social"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-8 col-xs-6 nopad">
+                                    <div class="row no-margin">
+                                        <div class="col-lg-6 col-xs-12 nopad">
+                                            <a href="#" class="big_footer_wt">DOWNLOAD APP</a>
+                                        </div>
+                                        <div class="col-lg-6 col-xs-12 nopad">
+                                            <div class="row no-margin">
+                                                <div class="col-xs-12 nopad">
+                                                    <a href="#"><img src="images/android_app_link.png" alt="android_app_link" class="img_app_link" /></a>
+                                                </div>
+                                                <div class="col-xs-12 nopad">
+                                                    <a href="#"><img src="images/ios_app_link.png" alt="ios_app_link" class="img_app_link" /></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FOOTER END -->
+        <!-- =========================================================================-->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/GOODZILLA.js"></script>
+    </body>
+</html>
