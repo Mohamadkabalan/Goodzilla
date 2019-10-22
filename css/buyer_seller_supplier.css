@@ -36,7 +36,6 @@
 /* CSS Registration */
 .ins_img_container{width:250px;height:250px;margin:0 auto;}
 .bss_ins_photo_link{font-size:17px;position:absolute;color:#C2262E;background: rgba(194, 38, 46, .3);text-decoration:none;font-weight: bold;margin-left:7px;}
-.bss_ins_photo_link:hover{color:#C2262E;text-decoration:none;}
 .bss_ins_photo_link_container{width:152px;border-bottom:1px solid #CBCCCE;position:absolute;top:110px;margin-left:49px;height:28px;}
 .op_bss{position:absolute;color:#C2262E;font-size:10px;bottom:15px;margin-left:97px;}
 .bss_register_title{color:#231F20;font-family:nexa-bold;font-size:28px;margin-bottom:20px;}
@@ -73,3 +72,8 @@
 .certified_sub{font-size:27px;color:#C2262E;}
 .services_label{font-size:16.3px;color:#C2262E;font-family:nexa-bold;text-transform:uppercase;font-weight:normal;padding-left:30px;margin-bottom: 5px;}
 /*end certified*/
+.image-upload>input {display: none;}
+.file_input_label{display:block;}
+
+.upload_inputs input[type="file"]{display:none;}
+.login_input label.upload_input_label_but{width: 90%;font-size: 16.3px;color: #231F20;border-bottom: 1px solid #D3D5D6;font-family:Nexa;padding-left: 12px;}
