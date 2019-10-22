@@ -190,13 +190,18 @@
                     </div>
                     <div class="row no-margin">
                         <div class="col-xs-12 nopad">
-                            <div class="ins_img_container">
-                                <img class="img-responsive" src="images/bss_ins_img.jpg" alt="bss_ins_img" />
-                                <div class="bss_ins_photo_link_container">
-                                    <a href="#" class="bss_ins_photo_link">Insert Your Photo</a>
-                                </div>
-                                <p class="op_bss">(OPTIONAL)</p>
-                            </div>
+                            <div class="image-upload">
+							  <label for="file-input" class="file_input_label">
+								<div class="ins_img_container">
+									<img class="img-responsive" src="images/bss_ins_img.jpg" alt="bss_ins_img" />
+									<div class="bss_ins_photo_link_container">
+										<p class="bss_ins_photo_link">Insert Your Photo</p>
+									</div>
+									<p class="op_bss">(OPTIONAL)</p>
+								</div>
+							  </label>
+							  <input id="file-input" type="file" />
+							</div>
                         </div>
                     </div>
                     <div class="row no-margin">
@@ -225,15 +230,20 @@
                                         </div>
                                     </div>
                                     <div class="col-sm-6 col-xs-12 nopad">
-                                        <div class="form-group login_input">
-                                            <label for="license">COMMERCIAL LICENSE</label>
-                                            <input type="text" class="form-control" id="license"  placeholder="Upload COMMERCIAL LICENSE">
+                                        <div class="form-group login_input upload_inputs">
+                                            <label>COMMERCIAL LICENSE</label>
+											<label class="upload_input_label_but"> UPLOAD LICENSE
+												<input type="file" >
+											</label> 
+																						
                                         </div>
                                     </div>
                                     <div class="col-sm-6 col-xs-12 nopad">
-                                        <div class="form-group login_input">
-                                            <label for="compProfile">COMPANY PROFILE</label>
-                                            <input type="text" class="form-control" id="compProfile"  placeholder="Upload COMPANY PROFILE">
+                                        <div class="form-group login_input upload_inputs">
+                                            <label>COMPANY PROFILE</label>
+											<label class="upload_input_label_but"> UPLOAD COMPANY PROFILE
+												<input type="file" >
+											</label> 
                                         </div>
                                     </div>
                                     <div class="col-sm-6 col-xs-12 nopad">
@@ -470,6 +480,5 @@
         <!-- =========================================================================-->
         <script type="text/javascript" src="js/jquery.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="js/GOODZILLA.js"></script>
     </body>
 </html>
