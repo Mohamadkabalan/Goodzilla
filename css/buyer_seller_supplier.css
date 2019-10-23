@@ -30,6 +30,8 @@
 	.bss_xxs_fw{width:100%;}
 	.bss_blacktitle{font-size:40px;}
 	.bss_redtitle{font-size:40px;}
+	.bss_txt_img_cont{margin: 0 auto;margin-top:15px;}
+	.bss_img_grey_cont{margin: 0 auto;}
 }
 /*end overview*/
 
@@ -49,7 +51,9 @@
 }
 .upload_but{width:138px;height:35px;border:1px solid #CBCCCE;background-color:white;color:#C2262E;font-size:16.3px;border-radius:10px;}
 .intrest_links{text-decoration:none;width:138px;height:35px;border:1px solid #CBCCCE;background-color:white;color:#C2262E;font-size:13px;border-radius:10px;display:block;margin-right:9px;float:left;line-height:35px;text-align:center;font-family:nexa-bold;margin-bottom:8px;}
-.intrest_links:hover{color:#C2262E;text-decoration:none;}
+.intrest_links:hover{text-decoration:none;color: #333;
+background-color: #e6e6e6;
+border-color: #adadad;}
 /*end Registration*/
 
 /* CSS congrats */
@@ -60,6 +64,7 @@
 .cngrats_comn_txt{font-size:16.3px;color:white;margin-bottom:20px;}
 .capital_text{text-transform:uppercase;}
 .k_congrats{display:block;width:98px;height:35px;color:#C2262E;font-size:12.9px;text-transform:uppercase;background-color:#FFFFFF;line-height:35px;text-align:center;border-radius:10px;margin: 0 auto;}
+.k_congrats:hover{opacity:0.8;color:#C2262E;text-decoration:none;}
 @media (max-width: 530px) {
 	.congrats_container{padding:45px 10px}
 	.congrats_title{font-size:42px;}
@@ -76,4 +81,4 @@
 .file_input_label{display:block;}
 
 .upload_inputs input[type="file"]{display:none;}
-.login_input label.upload_input_label_but{width: 90%;font-size: 16.3px;color: #231F20;border-bottom: 1px solid #D3D5D6;font-family:Nexa;padding-left: 12px;}
+.login_input label.upload_input_label_but{width: 90%;font-size: 16.3px;color: #CBCCCE;border-bottom: 1px solid #D3D5D6;font-family:Nexa;padding-left: 12px;}

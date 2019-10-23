@@ -405,6 +405,7 @@ ul.scnd_menu_list{
     .footer_container {
         padding-top: 10px;
     }
+	.footer{padding-left:0;padding-right:0;}
 }
 @media (min-width: 768px) and (max-width: 992px) {
     .footer_container ul.footer_list li a {
@@ -933,29 +934,31 @@ ul.scnd_menu_list{
 /* input select and title input CSS */
 .login_title{font-size:46px;font-family:nexa-bold;color:#C2262E;margin-bottom:40px;}
 .login_input label{color:#C2262E;font-size:16.3px;font-weight:normal;font-family:nexa-bold;}
-.login_input input{font-size: 16.3px;color: #231F20;border:none;border-bottom:1px solid #D3D5D6;box-shadow: inset 0 1px 1px rgba(0,0,0,0);background-color: white;-moz-border-radius: 0px;-webkit-border-radius: 0px; border-radius: 0px;outline: none;}
-.login_input select{font-size: 16.3px;color: #231F20;border:none;border-bottom:1px solid #D3D5D6;box-shadow: inset 0 1px 1px rgba(0,0,0,0);background-color: white;-moz-border-radius: 0px;-webkit-border-radius: 0px; border-radius: 0px;outline: none;-webkit-appearance: none;
+.login_input input{text-transform:capitalize;font-size: 16.3px;color: #231F20;border:none;border-bottom:1px solid #D3D5D6;box-shadow: inset 0 1px 1px rgba(0,0,0,0);background-color: white;-moz-border-radius: 0px;-webkit-border-radius: 0px; border-radius: 0px;outline: none;}
+.login_input select{text-transform:capitalize;font-size: 16.3px;color: #CBCCCE;border:none;border-bottom:1px solid #D3D5D6;box-shadow: inset 0 1px 1px rgba(0,0,0,0);background-color: white;-moz-border-radius: 0px;-webkit-border-radius: 0px; border-radius: 0px;outline: none;-webkit-appearance: none;
        -moz-appearance: none;
         -ms-appearance: none;
          -o-appearance: none;
             appearance: none;}
+
+
 .login_input input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-    color: #231F20;
+    color: #CBCCCE;
     font-size: 16.3px;
     opacity: 1 !important;
 }
 .login_input input::-moz-placeholder { /* Firefox 19+ */
-    color: #231F20;
+    color: #CBCCCE;
     font-size: 16.3px;
     opacity: 1 !important;
 }
 .login_input input:-ms-input-placeholder { /* IE 10+ */
-    color: #231F20;
+    color: #CBCCCE;
     font-size: 16.3px;
     opacity: 1 !important;
 }
 .login_input input:-moz-placeholder { /* Firefox 18- */
-    color: #231F20;
+    color: #CBCCCE;
     font-size: 16.3px;
     opacity: 1 !important;
 }
