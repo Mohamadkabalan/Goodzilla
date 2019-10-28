@@ -1,0 +1,18 @@
+.navbar-default{border-bottom: 1px solid #C2C4C6;}
+.signup_title{font-size: 46px;font-family: nexa-bold;color:#C2262E;margin-bottom: 0px;line-height:1;}
+.margin_top_20{margin-top:20px;}
+.services_container{text-align:center;}
+.services_title{font-size:23px;line-height:1;color:#C2262E;font-family:nexa-bold;}
+.services_container p{font-size:18px;line-height:1;color:#000000;text-align:justify;}
+.services_container img{height:132px;}
+.margin_top_50{margin-top:50px;}
+@media (max-width: 900px) {
+	.signup_title{font-size:37px;}
+}
+@media (min-width: 768px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 550px) {
+	.signup_title {font-size: 25px; margin-top: 0;}
+}
