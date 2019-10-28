@@ -64,9 +64,8 @@
 .margin_bottom_10{margin-bottom:10px;}
 .product_desc_container{padding-left:20px;padding-right:20px;margin-top:52px;height:100%;max-height:470px;overflow:auto;}
 .big_black_bold_txt_pro{font-size:22px;color:#000000;line-height:25px;font-family:nexa-bold;font-weight:normal;}
-.small_black_bold_txt_pro{font-size:15px;color:#000000;font-family:nexa-bold;font-weight:normal;}
 .big_black_light_txt_pro{font-size:22px;color:#000000;line-height:25px;font-family:Nexa;font-weight:normal;}
-.small_black_light_txt_pro{font-size:15px;color:#000000;font-family:Nexa;font-weight:normal;}
+.small_black_light_txt_prosmall_black_light_txt_pro{font-size:15px;color:#000000;font-family:Nexa;font-weight:normal;}
 .padding_left_10{padding-left:10px;}
 .input-group_container{max-width: 86px;float:left;padding-left:10px;}
 .input-group-btn > .btn.special_case{padding-left:0;padding-right:0;border:none;cursor:pointer;color:#BDBFC1;}
@@ -75,29 +74,6 @@
 .quant_txt_style{float:left;line-height:34px;}
 .quant_p_container{line-height:34px;float:left;}
 .margin_bottom_0{margin-bottom:0;}
-.bold_label{font-size:22px;color:#000000;font-family:nexa-bold;font-weight:normal;padding-left:30px;margin-bottom: 5px;}
-.checkmark.smal_white_checkmark{background-color:#FFFFFF;border:3px solid #231F20;}
-.checkmark.smal_white_checkmark.smal_white_checkmark{border:3px solid #231F20;}
-.checkbox_container .checkmark.smal_white_checkmark:after {background-color:#C2262E;border-width: 0;left: 3px;top: 2px;width: 11px;height: 12px;border-radius:2px;
-                                                           border: none;
-                                                           -webkit-transform: rotate(0deg);
-                                                           -ms-transform: rotate(0deg);
-                                                           transform: rotate(0deg);}
-.checkmark.smal_white_checkmark {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 21px;
-    width: 21px;
-    background-color: #FFFFFF;
-    border-radius:5px;
-    margin-top: 4px;
-}
-.shipping_location_container{float:left;min-width:148px;padding-right:5px;}
-.shipping_company_container{float:left;width:auto;}
-select.shipping_select{outline: none;margin-left: -4px;width: auto; height: 25px; border: none; padding-left: 0px; background: url("../images/down_arrow.png") no-repeat scroll right center; appearance:none;-moz-appearance:none;-webkit-appearance:none;cursor: pointer;font-size:15px;font-family:Nexa;padding-right: 12px;}
-select.shipping_select option{padding-left:0;}
-label.small_black_bold_txt_pro{width:100%;margin-bottom: 0;}
 .margin_top_10{margin-top:10px;}
 .productinfo_commun_but{display:block;margin-right:15px;margin-top:20px;min-width:90px;height:32px;line-height:32px;color:#FFFFFF;font-size:12px;font-family:nexa-bold;text-decoration:none;background-color:#C2262E;text-transform:uppercase;float:left;text-align:center;border-radius:10px;}
 .productinfo_commun_but:hover{color:#FFFFFF;text-decoration:none;opacity:0.6;}

@@ -19,8 +19,7 @@
 .bss_right_numb_txt span.right_numb_txt_big{font-size:27px;color:#231F20;line-height: 27px;}
 .bss_right_numb_txt span.right_numb_txt_small{color: #000000;font-size: 16.5px;line-height: 16px;}
 .terms_cond_label{font-size:11px;color:#C2262E;font-family:nexa-italic;text-transform:uppercase;font-weight:normal;padding-left:30px;margin-bottom: 5px;padding-top: 5px;}
-.checkmark.smal_red_checkmark{background-color:#FFFFFF;border:2px solid #C2262E;height: 21px;width: 21px;}
-.checkbox_container .checkmark.smal_red_checkmark:after {border: solid black;border-width: 0 3px 3px 0;left: 6px;top: 1px;}
+
 .reg_bss_link{font-size:22.5px;text-decoration:underline;color:#231F20;display:block;font-family:nexa-bold;text-align:center;}
 .reg_bss_link:hover{color:#231F20;}
 .services_title_bss{font-size:19.6px;color:#C2262E;font-family:nexa-bold;}
@@ -76,7 +75,6 @@ border-color: #adadad;}
 .centered_container{text-align:center;}
 .certified_header{font-size:46.8px;color:#C2262E;font-family:nexa-bold;}
 .certified_sub{font-size:27px;color:#C2262E;}
-.services_label{font-size:16.3px;color:#C2262E;font-family:nexa-bold;text-transform:uppercase;font-weight:normal;padding-left:30px;margin-bottom: 5px;}
 /*end certified*/
 .image-upload>input {display: none;}
 .file_input_label{display:block;}
