@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>CHECKOUT</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="image/vnd.microsoft.icon" href="images/goodzilla_logo.ico" rel="shortcut icon">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+        <link rel="stylesheet" href="css/GOODZILLA.css">
+        <link rel="stylesheet" href="css/checkout.css">
+
+        <!--[if lte IE 8]>
+        <style type="text/css" media="all">
+        @import url("css/compiled/ie8.css?o6qu32");
+        </style>
+        <![endif]-->
+
+        <!--[if lte IE 7]>
+        <style type="text/css" media="all">
+        @import url("css/compiled/ie7.css?o6qu32");
+        </style>
+        <![endif]-->
+
+        <!--[if lte IE 6]>
+        <style type="text/css" media="all">
+        @import url("css/compiled/ie6.css?o6qu32");
+        </style>
+        <![endif]-->
+
+    </head>
+    <body>
+        <section class="header container-fluid">
+            <!-- FIRST MENU START -->
+            <div class="first_menu">
+                <div class="row no-margin">
+                    <div class="hearder-container col-lg-3 col-md-4 col-xs-6 xxs_width nopad">
+                        <div class="logo-wrap"><a title="goodzilla_logo" href="index.html"><img src="images/goodzilla_logo.png" alt="goodzilla_logo" /></a></div>
+                    </div>
+                    <div class="search-container col-md-4 col-xs-6 nopad xxs_width product_list">
+                        <div class="row no-margin">
+                            <div class="product_search_container col-xs-4 nopad">
+                                <p>PRODUCT</p>
+                                <div class="product_list_arrow_container">
+                                    <img src="images/down_arrow.png" alt="down_arrow" />
+                                </div>
+                                <div class="list_of_product_hidden_container">
+                                    <div class="row no-margin">
+                                        <div class="col-xs-12 nopad">
+                                            <div class="product_options">product 1</div>
+                                            <div class="product_options">product 2</div>
+                                            <div class="product_options">product 3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lookingFor_container col-xs-8 nopad">
+                                <div class="row no-margin">
+                                    <div class="col-lg-11 col-sm-10 col-xs-12 nopad">
+                                        <input type="text" id="replacable_text" name="" value="" placeholder="what are you looking for?">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="login_container col-lg-5 col-md-4 col-xs-12 nopad">
+                        <ul class="login_menu_list">
+                            <li class="orders_list_element"><a href="#"><span class="menu_icons"><i class="fas fa-shopping-bag"></i></span>Orders: <span>0</span></a></li>
+                            <li class="carts_list_element"><a href="#"><span class="menu_icons"><i class="fas fa-shopping-cart cart_logo"></i></span><span>Carts: </span><span>0</span></a>
+                                <div id="cart_absolute_container">
+                                    <div class="col-xs-12 nopad cart_relative_container">
+                                        <div class="row no-margin parent">
+                                            <div class="col-xs-12 nopad cart_content_container">
+                                                <div class="cart_close_but">X</div>
+                                                <div class="row no-margin">
+                                                    <div class="col-xs-12 nopad item_in_cart_container">
+                                                        <div class="row no-margin item_in_cart_row">
+                                                            <div class="col-xs-4 nopad">
+                                                                <img class="product_in_cart_img" src="images/headphone_thumb.png" alt="headphone_thumb" />
+                                                                <p class="product_in_cart_title">HEADPHONES<p>
+                                                                <p class="product_in_cart_sub_titile">MIXCDER HD901<p>
+                                                            </div>
+                                                            <div class="col-xs-4 nopad">
+                                                                <div class="input-group_container centered_input_groupe_container">
+                                                                    <div class="input-group">
+                                                                        <span class="input-group-btn">
+                                                                            <button type="button" class="btn btn-default btn-number special_case" disabled="disabled" data-type="minus" data-field="quant[1]">
+                                                                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                                                            </button>
+                                                                        </span>
+                                                                        <input type="text" name="quant[1]" class="form-control input-number snippet_product font_normal" value="10" min="1" max="1000">
+                                                                        <span class="input-group-btn">
+                                                                            <button type="button" class="btn btn-default btn-number special_case" data-type="plus" data-field="quant[1]">
+                                                                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                                                            </button>
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xs-4 nopad">
+                                                                <p class="product_in_cart_price">75,000 LL<p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xs-12 nopad item_in_cart_container">
+                                                        <div class="row no-margin item_in_cart_row">
+                                                            <div class="col-xs-4 nopad">
+                                                                <img class="product_in_cart_img" src="images/headphone_thumb.png" alt="headphone_thumb" />
+                                                                <p class="product_in_cart_title">HEADPHONES<p>
+                                                                <p class="product_in_cart_sub_titile">MIXCDER HD901<p>
+                                                            </div>
+                                                            <div class="col-xs-4 nopad">
+                                                                <div class="input-group_container centered_input_groupe_container">
+                                                                    <div class="input-group">
+                                                                        <span class="input-group-btn">
+                                                                            <button type="button" class="btn btn-default btn-number special_case" disabled="disabled" data-type="minus" data-field="quant[1]">
+                                                                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                                                            </button>
+                                                                        </span>
+                                                                        <input type="text" name="quant[1]" class="form-control input-number snippet_product font_normal" value="10" min="1" max="1000">
+                                                                        <span class="input-group-btn">
+                                                                            <button type="button" class="btn btn-default btn-number special_case" data-type="plus" data-field="quant[1]">
+                                                                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                                                            </button>
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xs-4 nopad">
+                                                                <p class="product_in_cart_price">75,000 LL<p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xs-12 nopad item_in_cart_checkout_container">
+                                                        <a class="cart_inside_but" href="#">VIEW CART</a>
+                                                        <a class="cart_inside_but" href="#">CHECK OUT</a>
+                                                        <p class="product_in_cart_total_price"><span class="product_in_cart_total_price_t">TOTAL</span><span>=  150,000 LL</span><p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="favorites_list_element"><a href="#"><span class="menu_icons"><i class="fas fa-heart"></i></span>Favorites: <span>0</span></a></li>
+                            <li class="login_list_element"><span><a href="#">Log-in</a></span><span><img src="images/login_separator_bar.png" alt="login_separator_bar" /></span><span><a href="#">Sign up</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- FIRST MENU END -->
+            <!-- =========================================================================-->
+
+            <!-- SCND MENU START-->
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>                        
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav scnd_menu_list">
+                            <li><a href="#" class="active">CATEGORIES</a></li>
+                            <li><a href="#">ABOUT US</a></li>
+                            <li><a href="#">SERVICES</a></li>
+                            <li><a href="#">CONTACT US</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right user_logo_container">
+                            <a href="#"><img src="images/user.png" alt="user" /></a>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- SCND MENU END  -->
+            <!-- ========================================================================= -->
+        </section>
+
+        <!-- CHECKOUT PAGE START  -->
+
+        <section class="checkout_page_container container-fluid">
+            <div class="row no-margin">
+                <div class="col-xs-12 nopad">
+                    <h2 class="bb_title">CHECKOUT!</h2>
+                </div>
+            </div>
+			<div class="row no-margin">
+				<div class="col-md-10 col-xs-12">
+					<div class="row no-margin">
+						<div class="col-xs-12 nopad">
+							<h2 class="red_38_title">Shipping</h2>
+						</div>
+					</div>
+					<div class="row no-margin">
+						<div class="col-xs-12 nopad">
+							<label class="checkbox_container bold_label">SHIP WITH US
+								<input type="checkbox" checked="checked">
+								<span class="checkmark smal_white_checkmark"></span>
+							</label>
+						</div>
+					</div>
+					<div class="row no-margin">
+						<div class="col-xs-12 nopad">
+							<div class="shipping_location_container">
+								<label class="small_black_bold_txt_pro">Ship to:</label>
+								<select name="" class="shipping_select">
+									<option value="">Lebanon</option>
+								</select>
+							</div>
+							<div class="shipping_company_container">
+								<label class="small_black_bold_txt_pro">Shipping Company:</label>
+								<select name="" class="shipping_select">
+									<option value="">Ali Express</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="row no-margin margin_top_30">
+						<div class="col-xs-12 nopad">
+							<h2 class="checkout_title">SHIPPING INFORMATION<h2>
+						</div>
+					</div>
+					<div class="row no-margin checkout_form">
+						<form>
+							<div class="col-sm-6 col-xs-12 nopad">
+								<div class="form-group login_input">
+									<input type="text" class="form-control" id=""  placeholder="First Name">
+								</div>
+							</div>
+							<div class="col-sm-6 col-xs-12 nopad">
+								<div class="form-group login_input">
+									<input type="text" class="form-control" id=""  placeholder="Last Name">
+								</div>
+							</div>
+							<div class="col-sm-6 col-xs-12 nopad">
+								<div class="form-group login_input">
+									<input type="Email" class="form-control" id=""  placeholder="Email">
+								</div>
+							</div>
+							<div class="col-sm-6 col-xs-12 nopad">
+								<div class="form-group login_input">
+									<input type="text" class="form-control" id=""  placeholder="Phone Number">
+								</div>
+							</div>
+							<div class="col-sm-4 col-xs-12 nopad">
+								<div class="form-group login_input">
+									<input type="text" class="form-control" id=""  placeholder="ZIP Code">
+								</div>
+							</div>
+							<div class="col-sm-4 col-xs-12 nopad">
+								<div class="form-group login_input">
+									<select class="form-control" id="country">
+										<option>Country</option>
+										<option>2</option>
+										<option>3</option>
+										<option>4</option>
+										<option>5</option>
+									</select>
+								</div>
+							</div>
+							<div class="col-sm-4 col-xs-12 nopad">
+								<div class="form-group login_input">
+									<select class="form-control" id="city">
+										<option>City</option>
+										<option>2</option>
+										<option>3</option>
+										<option>4</option>
+										<option>5</option>
+									</select>
+								</div>
+							</div>
+						</form>	
+					</div>
+					<div class="row no-margin margin_top_30">
+						<div class="col-xs-12 nopad">
+							<h2 class="checkout_title">SHIPPING METHOD<h2>
+						</div>
+					</div>
+					<div class="row no-margin">
+						<div class="col-xs-12 nopad">
+							<label class="checkbox_container ckout_cont"><span class="top_label_span">STANDARD</span><br/><span class="bottom_label_span">Estimated time of Shipping: 36 - 58 days</span>
+								<input type="checkbox">
+								<span class="checkmark grey_border_checkmark"></span>
+							</label>
+							<label class="checkbox_container ckout_cont"><span class="top_label_span">EXPRESS</span><br/><span class="bottom_label_span">Estimated time of shipping: 14 - 24 days</span>
+								<input type="checkbox">
+								<span class="checkmark grey_border_checkmark"></span>
+							</label>
+						</div>
+					</div>
+					<div class="row no-margin">
+						<div class="col-xs-12 nopad">
+							<h2 class="red_38_title">Select Payment Method!</h2>
+						</div>
+						<div class="col-xs-12 nopad margin_top_30">
+							<a href="#" class="select_payment_link activemethode"><span><img src="images/credit_card_payment_logo.jpg" alt="credit card" /></span>Credit Card</a>
+							<a href="#" class="select_payment_link"><span>L/C</span>Letter of Credit</a>
+							<a href="#" class="select_payment_link"><span><img src="images/wire_trans_logo.png" alt="wire_trans_logo" /></span>Wire Transfer</a>
+						</div>
+					</div>
+					<div class="row no-margin checkout_form">
+						<form>
+							<div class="col-sm-6 col-xs-12 nopad">
+								<div class="form-group login_input">
+									<input type="text" class="form-control" id=""  placeholder="Cardholder name">
+								</div>
+							</div>
+							<div class="col-sm-6 col-xs-12 nopad">
+								<div class="form-group login_input">
+									<input type="text" class="form-control" id=""  placeholder="Card Number">
+								</div>
+							</div>
+							<div class="col-xs-12 nopad">
+								<div class="row no-margin">
+									<div class="col-sm-3 col-xs-6 nopad special_4_pad_right">
+										<label class="exp_date_label">EXPIRATION DATE</label>
+									</div>
+									<div class="col-sm-3 col-xs-6 nopad special_4_pad_right">
+										<div class="form-group">
+											<select class="form-control exp_date_select" id="Month">
+												<option>Month</option>
+												<option>1</option>
+												<option>3</option>
+												<option>4</option>
+												<option>5</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-sm-3 col-xs-6 nopad special_4_pad_right">
+										<div class="form-group">
+											<select class="form-control exp_date_select" id="Year">
+												<option>Year</option>
+												<option>1</option>
+												<option>3</option>
+												<option>4</option>
+												<option>5</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-sm-3 col-xs-6 nopad special_4_pad_right">
+										<div class="form-group">
+											<select class="form-control exp_date_select" id="CVV">
+												<option>CVV</option>
+												<option>1</option>
+												<option>3</option>
+												<option>4</option>
+												<option>5</option>
+											</select>
+										</div>
+									</div>
+								</div>
+							</div>
+						</form>	
+					</div>
+				</div>
+			</div>
+			<div class="row no-margin">
+				<div class="col-xs-12 margin_top_30">
+					<h2 class="red_38_title">Order Summary</h2>
+				</div>
+			</div>
+			<div class="row no-margin margin_top_20 margin_bottom_30 hidden-sm hidden-xs">
+				<div class="col-xs-12 nopad heder_table">
+					<div class="row no-margin">
+						<div class="col-xs-2 nopad heder_table_cells">
+							<p>Item</p>
+						</div>
+						<div class="col-xs-2 nopad heder_table_cells">
+							<p>Seller ID</p>
+						</div>
+						<div class="col-xs-2 nopad heder_table_cells">
+							<p>Quantity</p>
+						</div>
+						<div class="col-xs-2 nopad heder_table_cells">
+							<p>Color</p>
+						</div>
+						<div class="col-xs-2 nopad heder_table_cells">
+							<p>Price/Piece</p>
+						</div>
+						<div class="col-xs-2 nopad heder_table_cells">
+							<p>Total Price</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 nopad">
+					<ul class="row no-margin row_list">
+						<li class="col-xs-2 nopad table_row_cells">
+							<p>HEADPHONES<br/><span>MIXCDER HD901</span></p>
+						</li>
+						<li class="col-xs-2 nopad table_row_cells">
+							<p>12345</p>
+						</li>
+						<li class="col-xs-2 nopad table_row_cells">
+							<p>20</p>
+						</li>
+						<li class="col-xs-2 nopad table_row_cells">
+							<p>
+								<label class="checkbox_container checkbox_container_insidetable">
+									<input type="checkbox">
+									<span class="checkmark black_checkmark"></span>
+								</label>
+							</p>
+						</li>
+						<li class="col-xs-2 nopad table_row_cells">
+							<p>$67</p>
+						</li>
+						<li class="col-xs-2 nopad table_row_cells">
+							<p>$1,340</p>
+						</li>
+					</ul>
+					<ul class="row no-margin row_list">
+						<li class="col-xs-2 nopad table_row_cells">
+							<p>HEADPHONES<br/><span>MIXCDER HD901</span></p>
+						</li>
+						<li class="col-xs-2 nopad table_row_cells">
+							<p>12345</p>
+						</li>
+						<li class="col-xs-2 nopad table_row_cells">
+							<p>40</p>
+						</li>
+						<li class="col-xs-2 nopad table_row_cells">
+							<p>
+								<label class="checkbox_container checkbox_container_insidetable">
+									<input type="checkbox">
+									<span class="checkmark black_checkmark"></span>
+								</label>
+							</p>
+						</li>
+						<li class="col-xs-2 nopad table_row_cells">
+							<p>$70</p>
+						</li>
+						<li class="col-xs-2 nopad table_row_cells">
+							<p>$2,800</p>
+						</li>
+					</ul>
+					<ul class="row no-margin row_list">
+						<li class="col-xs-2 nopad table_row_cells">
+							<p>HEADPHONES<br/><span>MIXCDER HD901</span></p>
+						</li>
+						<li class="col-xs-2 nopad table_row_cells">
+							<p>12345</p>
+						</li>
+						<li class="col-xs-2 nopad table_row_cells">
+							<p>50</p>
+						</li>
+						<li class="col-xs-2 nopad table_row_cells">
+							<p>
+								<label class="checkbox_container checkbox_container_insidetable">
+									<input type="checkbox">
+									<span class="checkmark black_checkmark"></span>
+								</label>
+							</p>
+						</li>
+						<li class="col-xs-2 nopad table_row_cells">
+							<p>$90</p>
+						</li>
+						<li class="col-xs-2 nopad table_row_cells">
+							<p>$4,800</p>
+						</li>
+					</ul>
+					<ul class="row no-margin row_list">
+						<li class="col-xs-2 nopad table_row_cells">
+							<p>HEADPHONES<br/><span>MIXCDER HD901</span></p>
+						</li>
+						<li class="col-xs-2 nopad table_row_cells">
+							<p>12345</p>
+						</li>
+						<li class="col-xs-2 nopad table_row_cells">
+							<p>80</p>
+						</li>
+						<li class="col-xs-2 nopad table_row_cells">
+							<p>
+								<label class="checkbox_container checkbox_container_insidetable">
+									<input type="checkbox">
+									<span class="checkmark black_checkmark"></span>
+								</label>
+							</p>
+						</li>
+						<li class="col-xs-2 nopad table_row_cells">
+							<p>$90</p>
+						</li>
+						<li class="col-xs-2 nopad table_row_cells">
+							<p>$3,800</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row no-margin margin_top_20 margin_bottom_30 visible-sm visible-xs">
+				<div class="col-xs-12 nopad">
+					<div class="row no-margin table_smal">
+						<div class="col-sm-6 col-xs-12 nopad">
+							<div class="row no-margin">
+								<div class="col-xs-6 nopad">
+									<p class="table_title">Item</p>
+								</div>
+								<div class="col-xs-6 nopad">
+									<p class="table_row_text">HEADPHONES<br/><span>MIXCDER HD901</span></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-xs-12 nopad">
+							<div class="row no-margin">
+								<div class="col-xs-6 nopad">
+									<p class="table_title">Seller ID</p>
+								</div>
+								<div class="col-xs-6 nopad">
+									<p class="table_row_text">12345</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-xs-12 nopad">
+							<div class="row no-margin">
+								<div class="col-xs-6 nopad">
+									<p class="table_title">Quantity</p>
+								</div>
+								<div class="col-xs-6 nopad">
+									<p class="table_row_text">20</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-xs-12 nopad">
+							<div class="row no-margin">
+								<div class="col-xs-6 nopad">
+									<p class="table_title">Color</p>
+								</div>
+								<div class="col-xs-6 nopad">
+									<p class="table_row_text">
+										<label class="checkbox_container checkbox_container_insidetable">
+											<input type="checkbox">
+											<span class="checkmark black_checkmark"></span>
+										</label>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-xs-12 nopad">
+							<div class="row no-margin">
+								<div class="col-xs-6 nopad">
+									<p class="table_title">Price/Piece</p>
+								</div>
+								<div class="col-xs-6 nopad">
+									<p class="table_row_text">$67</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-xs-12 nopad">
+							<div class="row no-margin">
+								<div class="col-xs-6 nopad">
+									<p class="table_title">Total Price</p>
+								</div>
+								<div class="col-xs-6 nopad">
+									<p class="table_row_text">$1,340</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row no-margin table_smal">
+						<div class="col-sm-6 col-xs-12 nopad">
+							<div class="row no-margin">
+								<div class="col-xs-6 nopad">
+									<p class="table_title">Item</p>
+								</div>
+								<div class="col-xs-6 nopad">
+									<p class="table_row_text">HEADPHONES<br/><span>MIXCDER HD901</span></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-xs-12 nopad">
+							<div class="row no-margin">
+								<div class="col-xs-6 nopad">
+									<p class="table_title">Seller ID</p>
+								</div>
+								<div class="col-xs-6 nopad">
+									<p class="table_row_text">12345</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-xs-12 nopad">
+							<div class="row no-margin">
+								<div class="col-xs-6 nopad">
+									<p class="table_title">Quantity</p>
+								</div>
+								<div class="col-xs-6 nopad">
+									<p class="table_row_text">20</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-xs-12 nopad">
+							<div class="row no-margin">
+								<div class="col-xs-6 nopad">
+									<p class="table_title">Color</p>
+								</div>
+								<div class="col-xs-6 nopad">
+									<p class="table_row_text">
+										<label class="checkbox_container checkbox_container_insidetable">
+											<input type="checkbox">
+											<span class="checkmark black_checkmark"></span>
+										</label>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-xs-12 nopad">
+							<div class="row no-margin">
+								<div class="col-xs-6 nopad">
+									<p class="table_title">Price/Piece</p>
+								</div>
+								<div class="col-xs-6 nopad">
+									<p class="table_row_text">$67</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-xs-12 nopad">
+							<div class="row no-margin">
+								<div class="col-xs-6 nopad">
+									<p class="table_title">Total Price</p>
+								</div>
+								<div class="col-xs-6 nopad">
+									<p class="table_row_text">$1,340</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row no-margin table_smal">
+						<div class="col-sm-6 col-xs-12 nopad">
+							<div class="row no-margin">
+								<div class="col-xs-6 nopad">
+									<p class="table_title">Item</p>
+								</div>
+								<div class="col-xs-6 nopad">
+									<p class="table_row_text">HEADPHONES<br/><span>MIXCDER HD901</span></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-xs-12 nopad">
+							<div class="row no-margin">
+								<div class="col-xs-6 nopad">
+									<p class="table_title">Seller ID</p>
+								</div>
+								<div class="col-xs-6 nopad">
+									<p class="table_row_text">12345</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-xs-12 nopad">
+							<div class="row no-margin">
+								<div class="col-xs-6 nopad">
+									<p class="table_title">Quantity</p>
+								</div>
+								<div class="col-xs-6 nopad">
+									<p class="table_row_text">20</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-xs-12 nopad">
+							<div class="row no-margin">
+								<div class="col-xs-6 nopad">
+									<p class="table_title">Color</p>
+								</div>
+								<div class="col-xs-6 nopad">
+									<p class="table_row_text">
+										<label class="checkbox_container checkbox_container_insidetable">
+											<input type="checkbox">
+											<span class="checkmark black_checkmark"></span>
+										</label>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-xs-12 nopad">
+							<div class="row no-margin">
+								<div class="col-xs-6 nopad">
+									<p class="table_title">Price/Piece</p>
+								</div>
+								<div class="col-xs-6 nopad">
+									<p class="table_row_text">$67</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-xs-12 nopad">
+							<div class="row no-margin">
+								<div class="col-xs-6 nopad">
+									<p class="table_title">Total Price</p>
+								</div>
+								<div class="col-xs-6 nopad">
+									<p class="table_row_text">$1,340</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row no-margin table_smal">
+						<div class="col-sm-6 col-xs-12 nopad">
+							<div class="row no-margin">
+								<div class="col-xs-6 nopad">
+									<p class="table_title">Item</p>
+								</div>
+								<div class="col-xs-6 nopad">
+									<p class="table_row_text">HEADPHONES<br/><span>MIXCDER HD901</span></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-xs-12 nopad">
+							<div class="row no-margin">
+								<div class="col-xs-6 nopad">
+									<p class="table_title">Seller ID</p>
+								</div>
+								<div class="col-xs-6 nopad">
+									<p class="table_row_text">12345</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-xs-12 nopad">
+							<div class="row no-margin">
+								<div class="col-xs-6 nopad">
+									<p class="table_title">Quantity</p>
+								</div>
+								<div class="col-xs-6 nopad">
+									<p class="table_row_text">20</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-xs-12 nopad">
+							<div class="row no-margin">
+								<div class="col-xs-6 nopad">
+									<p class="table_title">Color</p>
+								</div>
+								<div class="col-xs-6 nopad">
+									<p class="table_row_text">
+										<label class="checkbox_container checkbox_container_insidetable">
+											<input type="checkbox">
+											<span class="checkmark black_checkmark"></span>
+										</label>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-xs-12 nopad">
+							<div class="row no-margin">
+								<div class="col-xs-6 nopad">
+									<p class="table_title">Price/Piece</p>
+								</div>
+								<div class="col-xs-6 nopad">
+									<p class="table_row_text">$67</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-xs-12 nopad">
+							<div class="row no-margin">
+								<div class="col-xs-6 nopad">
+									<p class="table_title">Total Price</p>
+								</div>
+								<div class="col-xs-6 nopad">
+									<p class="table_row_text">$1,340</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row no-margin">
+                <div class="col-xs-12 nopad margin_top_20">
+                    <div class="butons_container_chekout">
+                        <a class="butons_container_chekout_but" href="#">CLEAR CART</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CHECKOUT PAGE END  -->
+        <!-- =========================================================================--> 
+
+        <!-- FOOTER START -->
+        <section class="footer container-fluid">
+            <div class="row no-margin">
+                <div class="footer_container col-xs-12 nopad">
+                    <div class="row no-margin">
+                        <div class="col-sm-7 col-xs-12 nopad">
+                            <div class="row no-margin">
+                                <div class="col-sm-3 col-xs-6 nopad">
+                                    <ul class="footer_list">
+                                        <li class="title_footer_list"><a href="#">CATEGORIES</a></li>
+                                        <li><a href="#">Electronics</a></li>
+                                        <li><a href="#">Clothes</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-3 col-xs-6 nopad">
+                                    <ul class="footer_list">
+                                        <li class="title_footer_list"><a href="#">ABOUT US</a></li>
+                                        <li><a href="#">About Goodzillas</a></li>
+                                        <li><a href="#">Overviews</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-3 col-xs-6 nopad">
+                                    <ul class="footer_list">
+                                        <li class="title_footer_list"><a href="#">Customer Service</a></li>
+                                        <li><a href="#">Help Center</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                        <li><a href="#">Report Abuse</a></li>
+                                        <li><a href="#">Submit a Dispute</a></li>
+                                        <li><a href="#">Policies & Rules</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-3 col-xs-6 nopad">
+                                    <ul class="footer_list">
+                                        <li class="title_footer_list"><a href="#">TERMS & CONDITIONS</a></li>
+                                        <li><a href="#">Help Center</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                        <li><a href="#">Report Abuse</a></li>
+                                        <li><a href="#">Submit a Dispute</a></li>
+                                        <li><a href="#">Policies & Rules</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-5 col-xs-12 nopad">
+                            <div class="row no-margin">
+                                <div class="col-md-4 col-xs-6 nopad">
+                                    <div class="row no-margin">
+                                        <div class="col-xs-12 nopad">
+                                            <a href="#" class="big_footer_wt">FOLLOW US</a>
+                                        </div>
+                                        <div class="col-xs-12 nopad">
+                                            <ul class="social_links_list_container">
+                                                <li><a href="#"><i class="fab fa-instagram fa-3x fab_social"></i></i></a></li>
+                                                <li><a href="#"><i class="fab fa-facebook-square fa-3x fab_social"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-twitter-square fa-3x fab_social"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-8 col-xs-6 nopad">
+                                    <div class="row no-margin">
+                                        <div class="col-lg-6 col-xs-12 nopad">
+                                            <a href="#" class="big_footer_wt">DOWNLOAD APP</a>
+                                        </div>
+                                        <div class="col-lg-6 col-xs-12 nopad">
+                                            <div class="row no-margin">
+                                                <div class="col-xs-12 nopad">
+                                                    <a href="#"><img src="images/android_app_link.png" alt="android_app_link" class="img_app_link" /></a>
+                                                </div>
+                                                <div class="col-xs-12 nopad">
+                                                    <a href="#"><img src="images/ios_app_link.png" alt="ios_app_link" class="img_app_link" /></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FOOTER END -->
+        <!-- =========================================================================-->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script src="js/css_browser_selector.js" type="text/javascript"></script>
+        <script type="text/javascript" src="js/GOODZILLA.js"></script>
+    </body>
+</html>

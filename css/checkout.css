@@ -1,0 +1,40 @@
+.navbar-default{border-bottom: 1px solid #C2C4C6;}
+.bb_title{font-size:68px;color:#231F20;font-family:nexa-bold;text-align:center;margin-bottom: 40px;}
+.margin_top_20{margin-top:20px;}
+.red_38_title{font-size:38px;color:#C2262E;}
+.checkout_title{font-size:22px;text-transform:uppercase;color:#000000;font-family:nexa-bold;}
+.checkout_form .login_input {padding-right:60px;}
+.ckout_cont{margin-right: 80px;line-height: 1;}
+.ckout_cont .top_label_span{margin-left: 10px;color:#231F20;font-size: 17px;font-weight: normal;font-family:nexa-bold;}
+.ckout_cont .bottom_label_span{margin-left: 10px;color:#231F20;font-size: 15px;font-weight: normal;}
+.select_payment_link{margin-right:50px;margin-bottom:20px;display:block;min-width:223px;min-height:74px;float:left;text-decoration:none;color:#231F20;font-size:17px;line-height:74px;text-align:center;background-color:white;border:1px solid #C2C4C6;}
+.select_payment_link.activemethode ,.select_payment_link:hover{color:white;background-color:#C2262E;border:none;text-decoration:none;}
+.select_payment_link span{font-size:19px;font-family:nexa-bold;margin-right:15px;}
+.select_payment_link span img{width:42px;height:36px;}
+.special_4_pad_right{padding-right:60px;}
+.exp_date_select{height:30px;border-radius:0;border:none;-moz-appearance: none;-ms-appearance: none; -o-appearance: none;appearance: none;background: #D1D1D1 url('../images/down_darck_gray_arrow.png') no-repeat right 5px center;}
+.exp_date_label{height:30px;line-height:30px;margin-bottom:0;font-weight:normal;color:#000000;font-size:18px;text-transform:uppercase;}
+.heder_table{border-top:1px solid #C2C4C6;border-bottom:1px solid #C2C4C6;min-height:37px;line-height:37px;float:left;}
+.heder_table_cells p{margin-bottom:0;color:#231F20;font-size:21px;text-align:center;}
+ul.row_list{padding-left:0;margin-top:0;margin-bottom:0;}
+ul.row_list li.table_row_cells{height:84px;border-bottom:1px solid #C2C4C6;border-right:1px solid #C2C4C6;display: table;list-style:none;}
+ul.row_list li.table_row_cells p{margin-bottom:0;color:#231F20;font-size:19px;text-align:center;font-family:nexa-bold;display: table-cell;vertical-align: middle;line-height: 1;}
+ul.row_list li.table_row_cells p span{font-size:15px;font-family:Nexa;}
+ul.row_list li.table_row_cells:last-child{border-right:none;}
+.checkbox_container_insidetable{display: inline-block;float: none;margin-right: 0;margin-top: 0;}
+.table_smal{border:1px solid #C2C4C6;padding:15px;margin-bottom:20px;}
+.table_title{color:#231F20;font-size:21px;}
+.table_row_text{color:#231F20;font-size:19px;font-family:nexa-bold;}
+.table_row_text span{font-size:15px;font-family:Nexa;}
+.butons_container_chekout{width: 98px;height: 34px;margin: 0 auto;margin-bottom: 0px; margin-bottom: 50px;}
+.butons_container_chekout_but{display: block;margin-top: 0px;text-decoration: none;min-width: 98px;height: 34px;line-height: 34px;color:#FFFFFF;font-size: 12px;font-family: nexa-bold;text-decoration: none;background-color:#C2262E;text-transform: uppercase;float: left;text-align: center;border-radius: 10px;}
+.butons_container_chekout_but:hover{opacity: 0.6;color:#FFFFFF;text-decoration: none;}
+
+@media (max-width: 767px) {
+	.checkout_form .login_input {padding-right:0px;}
+	.special_4_pad_right{padding-right:10px;}
+}
+@media (max-width: 550px) {
+	.select_payment_link{float:none;margin-right:0;}
+	.bb_title{font-size:38px;}
+}
