@@ -57,10 +57,17 @@
 	.contact_us_relative_container{padding: 40px 20px;padding-right:0;}
 	.right_form_container{padding-top:20px;padding-left:15px;padding-right:15px;}
 }
+@media (min-width: 768px) {
+	.margin_top_70{margin-top:70px !important;}
+	.xs_margin_top{margin-top:0px !important;}
+}
+@media (max-width: 768px) {
+	.margin_top_70{margin-top:20px;}
+	.xs_margin_top{margin-top:10px;}
+}
 @media (max-width: 550px) {
 	.cntctus_title{font-size:40px;}
 	.contactus_input{padding-right: 0px;}
 	.aus_title_red{font-size:42px;}
 	.common_p_txt{font-size:17px;}
-	.margin_top_70{margin-top:20px;}
 }
